@@ -1,2 +1,2 @@
 # custom_slackbuilds
-modified/Custom_SlackBuilds
+#Some modified for new versions or made optional deps manditory
