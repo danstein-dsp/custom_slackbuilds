@@ -47,6 +47,7 @@
 # 3.1   02-SEP-2016     upgraded.
 # 3.2   15-OCT-2016     upgraded to 2.7 release
 # 3.3   26-JAN-2017     upgraded to 2.8 release
+# default cores changed to all Dan Stein <dstein614@gmail.com>
 
 PRGNAM=qemu
 VERSION=${VERSION:-2.8.0}
