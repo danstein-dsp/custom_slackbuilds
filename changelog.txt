@@ -1,1 +1,2 @@
 updated kodi to build v17.0
+added dspbuilds custon slackbuilds for server
