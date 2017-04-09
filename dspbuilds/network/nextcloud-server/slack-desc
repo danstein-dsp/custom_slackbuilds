@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+               |-----handy-ruler------------------------------------------------------|
+nextcloud-server: nextcloud-server (ownCloud sync & share server)
+nextcloud-server:
+nextcloud-server: nextCloud gives you universal access to your files through a web
+nextcloud-server: interface or WebDAV. It also provides a platform to easily view & sync
+nextcloud-server: your contacts, calendars and bookmarks across all your devices and
+nextcloud-server: enables basic editing right on the web.
+nextcloud-server:
+nextcloud-server: Homepage: http://nextcloud.com/
+nextcloud-server:
+nextcloud-server:
+nextcloud-server:
