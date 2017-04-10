@@ -1,4 +1,4 @@
-braries/configobj
+libraries/configobj
 python/mock
 python/psutil
 python/pyrfc3339
@@ -11,7 +11,6 @@ libraries/zope.event
 libraries/zope.component
 libraries/enum34
 libraries/ipaddress
-python/six
 libraries/pycparser
 python/pyasn1
 python/idna
@@ -26,3 +25,5 @@ python/python-requests
 system/augeas
 python/python-augeas
 python/pytz
+system/letsencrypt
+                               

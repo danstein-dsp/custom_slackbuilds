@@ -10,7 +10,7 @@
 # - Exclude __MACOSX dir from unzip command
 
 # Licensed under the WTFPL. See http://www.wtfpl.net/txt/copying/ for details.
-
+# midified BY dan stein 4/9/17 dstein614@gmail.com
 PRGNAM=configobj
 VERSION=${VERSION:-4.7.2}
 BUILD=${BUILD:-1}
