@@ -4,7 +4,7 @@ python/psutil
 python/pyrfc3339
 python/python-configargparse
 python/python-parsedatetime
-python/pyton2-pythondialog
+python/python2-pythondialog
 python/werkzeug
 development/zope.interface
 libraries/zope.event
