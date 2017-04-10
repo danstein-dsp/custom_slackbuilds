@@ -1,5 +1,5 @@
 NAME: zope.interface
-LOCATION: ./development/zope.interface
+LOCATION: development/zope.interface
 FILES: README slack-desc zope.interface.dspbuild zope.interface.info
 VERSION: 4.1.2
 DOWNLOAD: https://pypi.python.org/packages/source/z/zope.interface/zope.interface-4.1.2.tar.gz
@@ -10,7 +10,7 @@ REQUIRES:
 SHORT DESCRIPTION: zope.interface (Zope 3 Interface Infrastructure)
 
 NAME: cffi
-LOCATION: ./libraries/cffi
+LOCATION: libraries/cffi
 FILES: README cffi.dspbuild cffi.info slack-desc
 VERSION: 1.10.0
 DOWNLOAD: https://pypi.python.org/packages/5b/b9/790f8eafcdab455bcd3bd908161f802c9ce5adbf702a83aa7712fcc345b7/cffi-1.10.0.tar.gz
@@ -21,7 +21,7 @@ REQUIRES: pycparser
 SHORT DESCRIPTION: cffi (Foreign Function Interface for Python calling C code)
 
 NAME: configobj
-LOCATION: ./libraries/configobj
+LOCATION: libraries/configobj
 FILES: README configobj.dspbuild configobj.info slack-desc
 VERSION: 4.7.2
 DOWNLOAD: http://www.voidspace.org.uk/downloads/configobj-4.7.2.zip
@@ -32,7 +32,7 @@ REQUIRES:
 SHORT DESCRIPTION: configobj (configuration file python module)
 
 NAME: enum34
-LOCATION: ./libraries/enum34
+LOCATION: libraries/enum34
 FILES: README enum34.dspbuild enum34.info slack-desc
 VERSION: 1.1.6
 DOWNLOAD: https://pypi.python.org/packages/bf/3e/31d502c25302814a7c2f1d3959d2a3b3f78e509002ba91aea64993936876/enum34-1.1.6.tar.gz
@@ -43,7 +43,7 @@ REQUIRES:
 SHORT DESCRIPTION: enum34 (backported Python 3.4 Enum)
 
 NAME: ipaddress
-LOCATION: ./libraries/ipaddress
+LOCATION: libraries/ipaddress
 FILES: README ipaddress.info ipadress.dspbuild slack-desc
 VERSION: 1.0.17
 DOWNLOAD: https://pypi.python.org/packages/bb/26/3b64955ff73f9e3155079b9ed31812afdfa5333b5c76387454d651ef593a/ipaddress-1.0.17.tar.gz
@@ -54,7 +54,7 @@ REQUIRES:
 SHORT DESCRIPTION: ipaddress (IPv4/IPv6 manipulation library)
 
 NAME: pycparser
-LOCATION: ./libraries/pycparser
+LOCATION: libraries/pycparser
 FILES: README pycparser.dspbuild pycparser.info slack-desc
 VERSION: 2.17
 DOWNLOAD: https://pypi.python.org/packages/be/64/1bb257ffb17d01f4a38d7ce686809a736837ad4371bcc5c42ba7a715c3ac/pycparser-2.17.tar.gz
@@ -65,7 +65,7 @@ REQUIRES:
 SHORT DESCRIPTION: pycparser (C parser in Python)
 
 NAME: zope.component
-LOCATION: ./libraries/zope.component
+LOCATION: libraries/zope.component
 FILES: README slack-desc zope.component.dspbuild zope.component.info
 VERSION: 4.2.1
 DOWNLOAD: http://pypi.python.org/packages/source/z/zope.component/zope.component-4.2.1.tar.gz
@@ -76,7 +76,7 @@ REQUIRES: zope.event zope.interface
 SHORT DESCRIPTION: zope.component (Zope Component Architecture)
 
 NAME: zope.event
-LOCATION: ./libraries/zope.event
+LOCATION: libraries/zope.event
 FILES: README slack-desc zope.event.dspbuild zope.event.info
 VERSION: 4.0.3
 DOWNLOAD: http://pypi.python.org/packages/source/z/zope.event/zope.event-4.0.3.tar.gz
@@ -87,7 +87,7 @@ REQUIRES:
 SHORT DESCRIPTION: zope.event (event publishing system)
 
 NAME: nextcloud-server
-LOCATION: ./network/nextcloud-server
+LOCATION: network/nextcloud-server
 FILES: README nextcloud-server.dspbuild nextcloud-server.info slack-desc
 VERSION: 11.0.1
 DOWNLOAD: https://download.nextcloud.com/server/releases/nextcloud-11.0.1.tar.bz2
@@ -98,7 +98,7 @@ REQUIRES:
 SHORT DESCRIPTION: nextcloud-server (ownCloud sync & share server)
 
 NAME: asn1crypto
-LOCATION: ./python/asn1crypto
+LOCATION: python/asn1crypto
 FILES: README asn1crypto.dspbuild asn1crypto.info slack-desc
 VERSION: 0.21.1
 DOWNLOAD: https://pypi.python.org/packages/ce/39/17e90c2efacc4060915f7d1f9b8d2a5b20e54e46233bdf3092e68193407d/asn1crypto-0.21.1.tar.gz
@@ -109,7 +109,7 @@ REQUIRES:
 SHORT DESCRIPTION: asn1crypto (Fast ASN.1 parser and serializer)
 
 NAME: cryptography
-LOCATION: ./python/cryptography
+LOCATION: python/cryptography
 FILES: README cryptography.dspbuild cryptography.info slack-desc
 VERSION: 1.8.1
 DOWNLOAD: https://pypi.python.org/packages/ec/5f/d5bc241d06665eed93cd8d3aa7198024ce7833af7a67f6dc92df94e00588/cryptography-1.8.1.tar.gz
@@ -120,7 +120,7 @@ REQUIRES: pyasn1 cffi six enum34 ipaddress idna packaging asn1crypto
 SHORT DESCRIPTION: cryptography (Python cryptography library)
 
 NAME: idna
-LOCATION: ./python/idna
+LOCATION: python/idna
 FILES: README idna.dspbuild idna.info slack-desc
 VERSION: 2.1
 DOWNLOAD: https://pypi.python.org/packages/source/i/idna/idna-2.1.tar.gz
@@ -131,7 +131,7 @@ REQUIRES:
 SHORT DESCRIPTION: idna (Internationalized Domain Names in Applications)
 
 NAME: mock
-LOCATION: ./python/mock
+LOCATION: python/mock
 FILES: README mock.dspbuild mock.info slack-desc
 VERSION: 1.0.1
 DOWNLOAD: http://pypi.python.org/packages/source/m/mock/mock-1.0.1.tar.gz
@@ -142,7 +142,7 @@ REQUIRES:
 SHORT DESCRIPTION: mock (implements a Mocking and Testing Library in Python)
 
 NAME: ndg_httpsclient
-LOCATION: ./python/ndg_httpsclient
+LOCATION: python/ndg_httpsclient
 FILES: README ndg_httpsclient.dspbuild ndg_httpsclient.info slack-desc
 VERSION: 0.4.2
 DOWNLOAD: https://pypi.python.org/packages/a2/a7/ad1c1c48e35dc7545dab1a9c5513f49d5fa3b5015627200d2be27576c2a0/ndg_httpsclient-0.4.2.tar.gz
@@ -153,7 +153,7 @@ REQUIRES: pyOpenSSL
 SHORT DESCRIPTION: ndg_httpsclient (enhanced HTTPS support)
 
 NAME: packaging
-LOCATION: ./python/packaging
+LOCATION: python/packaging
 FILES: README packaging.dspbuild packaging.info slack-desc
 VERSION: 16.8
 DOWNLOAD: https://pypi.python.org/packages/c6/70/bb32913de251017e266c5114d0a645f262fb10ebc9bf6de894966d124e35/packaging-16.8.tar.gz
@@ -164,7 +164,7 @@ REQUIRES: pyparsing six
 SHORT DESCRIPTION: packaging (Core utilities for Python packages)
 
 NAME: psutil
-LOCATION: ./python/psutil
+LOCATION: python/psutil
 FILES: README psutil.dspbuild psutil.info slack-desc
 VERSION: 5.2.0
 DOWNLOAD: https://github.com/giampaolo/psutil/archive/release-5.2.0/psutil-release-5.2.0.tar.gz
@@ -175,7 +175,7 @@ REQUIRES:
 SHORT DESCRIPTION: psutil (python interface for process and system info)
 
 NAME: pyOpenSSL
-LOCATION: ./python/pyOpenSSL
+LOCATION: python/pyOpenSSL
 FILES: README pyOpenSSL.dspbuild pyOpenSSL.info slack-desc
 VERSION: 16.2.0
 DOWNLOAD: https://pypi.python.org/packages/0c/d6/b1fe519846a21614fa4f8233361574eddb223e0bc36b182140d916acfb3b/pyOpenSSL-16.2.0.tar.gz
@@ -186,7 +186,7 @@ REQUIRES: cryptography
 SHORT DESCRIPTION: pyOpenSSL (Python wrapper for OpenSSL)
 
 NAME: pyasn1
-LOCATION: ./python/pyasn1
+LOCATION: python/pyasn1
 FILES: README pyasn1.dspbuild.dspbuild pyasn1.info slack-desc
 VERSION: 0.1.9
 DOWNLOAD: http://downloads.sourceforge.net/pyasn1/pyasn1-0.1.9.tar.gz
@@ -197,7 +197,7 @@ REQUIRES:
 SHORT DESCRIPTION: pyasn1 (ASN.1 types and codecs in Python)
 
 NAME: pyparsing
-LOCATION: ./python/pyparsing
+LOCATION: python/pyparsing
 FILES: README pyparsing.dspbuild pyparsing.info slack-desc
 VERSION: 2.1.8
 DOWNLOAD: http://downloads.sourceforge.net/project/pyparsing/pyparsing/pyparsing-2.1.8/pyparsing-2.1.8.tar.gz
@@ -208,7 +208,7 @@ REQUIRES:
 SHORT DESCRIPTION: pyparsing (parsing module for python)
 
 NAME: pyrfc3339
-LOCATION: ./python/pyrfc3339
+LOCATION: python/pyrfc3339
 FILES: README pyrfc3339.dspbuild pyrfc3339.info slack-desc
 VERSION: 1.0
 DOWNLOAD: https://pypi.python.org/packages/source/p/pyRFC3339/pyRFC3339-1.0.tar.gz
@@ -219,7 +219,7 @@ REQUIRES:
 SHORT DESCRIPTION: pyrfc3339 (Python module)
 
 NAME: python-augeas
-LOCATION: ./python/python-augeas
+LOCATION: python/python-augeas
 FILES: README python-augeas.dspbuild python-augeas.info slack-desc
 VERSION: 0.5.0
 DOWNLOAD: https://pypi.python.org/packages/41/e6/4b6740cb3e31b82252099994cea751c648b846aa7874343c31d68c2215be/python-augeas-0.5.0.tar.gz
@@ -230,7 +230,7 @@ REQUIRES: augeas
 SHORT DESCRIPTION: python-augeas (Python bindings for augeas)
 
 NAME: python-configargparse
-LOCATION: ./python/python-configargparse
+LOCATION: python/python-configargparse
 FILES: README python-configargparse.dspbuild python-configargparse.info slack-desc
 VERSION: 0.11.0
 DOWNLOAD: https://github.com/bw2/ConfigArgParse/archive/0.11.0.tar.gz
@@ -241,7 +241,7 @@ REQUIRES:
 SHORT DESCRIPTION: python-configargparse (Python module)
 
 NAME: python-parsedatetime
-LOCATION: ./python/python-parsedatetime
+LOCATION: python/python-parsedatetime
 FILES: README python-parsedatetime.dspbuild python-parsedatetime.info slack-desc
 VERSION: 2.3
 DOWNLOAD: https://github.com/bear/parsedatetime/archive/v2.3/parsedatetime-2.3.tar.gz
@@ -252,7 +252,7 @@ REQUIRES: python-future
 SHORT DESCRIPTION: python-parsedatetime (Python module)
 
 NAME: python-requests
-LOCATION: ./python/python-requests
+LOCATION: python/python-requests
 FILES: README python-requests.dspbuild python-requests.info slack-desc
 VERSION: 2.13.0
 DOWNLOAD: https://github.com/kennethreitz/requests/archive/v2.13.0/requests-2.13.0.tar.gz
@@ -263,7 +263,7 @@ REQUIRES:
 SHORT DESCRIPTION: python-requests (Requests: HTTP for Humans)
 
 NAME: python2-pythondialog
-LOCATION: ./python/python2-pythondialog
+LOCATION: python/python2-pythondialog
 FILES: README python2-pythondialog.dspbuild python2-pythondialog.info slack-desc
 VERSION: 3.4.0
 DOWNLOAD: https://pypi.python.org/packages/26/34/b4cf8018dbc51e8a0fae2c51a0dd2c1f34419caa9e3eb83646c73d1beb9d/python2-pythondialog-3.4.0.tar.gz
@@ -274,7 +274,7 @@ REQUIRES:
 SHORT DESCRIPTION: python2-pythondialog (dialog utility)
 
 NAME: pytz
-LOCATION: ./python/pytz
+LOCATION: python/pytz
 FILES: README pytz.dspbuild pytz.info slack-desc
 VERSION: 2016.10
 DOWNLOAD: https://pypi.python.org/packages/d0/e1/aca6ef73a7bd322a7fc73fd99631ee3454d4fc67dc2bee463e2adf6bb3d3/pytz-2016.10.tar.bz2
@@ -285,7 +285,7 @@ REQUIRES:
 SHORT DESCRIPTION: pytz (World timezone definitions for Python)
 
 NAME: werkzeug
-LOCATION: ./python/werkzeug
+LOCATION: python/werkzeug
 FILES: README slack-desc werkzeug.dspbuild werkzeug.info
 VERSION: 0.9.4
 DOWNLOAD: https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.9.4.tar.gz
@@ -296,7 +296,7 @@ REQUIRES:
 SHORT DESCRIPTION: werkzeug (WSGI utility library for Python)
 
 NAME: augeas
-LOCATION: ./system/augeas
+LOCATION: system/augeas
 FILES: README augeas.dspbuild augeas.info slack-desc
 VERSION: 1.4.0
 DOWNLOAD: http://download.augeas.net/augeas-1.4.0.tar.gz
@@ -307,7 +307,7 @@ REQUIRES:
 SHORT DESCRIPTION: augeas (a configuration API)
 
 NAME: letsencrypt
-LOCATION: ./system/letsencrypt
+LOCATION: system/letsencrypt
 FILES: README README.Slackware letsencrypt.dspbuild letsencrypt.info slack-desc
 VERSION: 0.12.0
 DOWNLOAD: https://github.com/certbot/certbot/archive/v0.12.0/certbot-0.12.0.tar.gz

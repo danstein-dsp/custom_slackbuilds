@@ -5,7 +5,7 @@ FILES=$(ls $i)
 source $i/${NAME}.info
 SHORTDES=$(grep -m 1 $NAME $i/slack-desc | cut -d " " -f2-)
             echo NAME: $NAME
-            echo LOCATION: "./"$i
+            echo LOCATION: $i
             echo FILES: $FILES
             echo VERSION: $VERSION
             echo DOWNLOAD: $DOWNLOAD
