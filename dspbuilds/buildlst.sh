@@ -1,7 +1,7 @@
 NAME=$1
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"
 FILEIN=$DEFPATH'/dspbuilds.txt'
-TMPFILE='/tmp/dsp.tmp'
+TMPFILE='/tmp/dspl.tmp'
 CWD=$(pwd)
 WKGPATH=$CWD'/temp/'
 grep -A 9 'NAME: '$1 $FILEIN | cut -d " " -f2- > $TMPFILE
@@ -17,7 +17,7 @@ read  MD5SUM_x86_64
 read  REQUIRES
 read  SHORT
 rm $TMPFILE
-REQTMP=$NAME'bl'
+REQTMP=$NAME'.bl'
 if  [ "$REQUIRES" != "REQUIRES:" ] 
         then
             echo $REQUIRES | awk ' {printf"%i\n",NF
