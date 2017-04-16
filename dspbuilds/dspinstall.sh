@@ -7,15 +7,15 @@ TMPFILE2='/tmp/dspbt2.tmp'
 BUILDLST='/tmp/bldlst.tmp'
 CWD=$(pwd)
 WKGPATH=$CWD'/temp/'
-echo 1
+#echo 1
 ./buildlst.sh $INAME > $TMPFILE
-echo 2
+#echo 2
 ./makeodr.sh $TMPFILE > $TMPFILE2
-echo 3
+#echo 3
 ./rmvdup.sh $TMPFILE2 > $BUILDLST
 
 function build_pkg (){
-    echo 4
+#    echo 4
     NAME=$1
     grep -A 9 'NAME: '$NAME $FILEIN | cut -d " " -f2- > $TMPFILE
     exec < $TMPFILE
@@ -30,9 +30,9 @@ function build_pkg (){
     read  REQUIRES
     read  SHORT
     rm $TMPFILE
-    echo Making Package for $NAME
-    echo from $LOCATION
-    echo in $WKGPATH
+#    echo Making Package for $NAME
+#    echo from $LOCATION
+#    echo in $WKGPATH
 #echo $DOWNLOAD
     mkdir $WKGPATH
     cd $WKGPATH
@@ -53,11 +53,11 @@ function build_pkg (){
     exec < $TMPFILE
     read INPKG
     rm $TMPFILE
-    echo install $INPKG
+#    echo install $INPKG
     installpkg $INPKG
 
 }
-echo working on $BUILDLST
+#echo working on $BUILDLST
 FILELIST=()
 while IFS= read -r line
     do  
@@ -65,7 +65,7 @@ while IFS= read -r line
     done < $BUILDLST
 for PKG in "${FILELIST[@]}"        
     do
-        echo building $PKG
+#        echo building $PKG
         build_pkg $PKG
     done 
 
