@@ -1,4 +1,5 @@
 #!/bin/bash
+#Moves list of slackbuild
 txtfile=$1
 CWD=$(pwd)
 

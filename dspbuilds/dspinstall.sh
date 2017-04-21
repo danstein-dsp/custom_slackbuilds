@@ -1,3 +1,4 @@
+#Build and install pkgs & their REQ pkgs
 INAME=$1
 DESTDIR='/home/ftp/dspbuilds'
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"

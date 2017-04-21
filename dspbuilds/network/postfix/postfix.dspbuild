@@ -65,7 +65,7 @@ case "$SASL" in
 esac
 
 # Build without database support by default
-DATABASE=${DATABASE:-mysql}
+DATABASE=${DATABASE:-none}
 case "$DATABASE" in
        mysql) DBARGS="-I/usr/include/mysql -DHAS_MYSQL"
               DBLIBS="-L/usr/lib${LIBDIRSUFFIX}/mysql -lmysqlclient -lz -lm" ;;

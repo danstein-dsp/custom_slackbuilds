@@ -22,6 +22,12 @@ rm $TMPFILE
 mkdir $WKGPATH/$LOCATION
 cd $WKGPATH/$LOCATION
 cp -vur $DEFPATH/$LOCATION/* ./
-mv $NAME.SlackBuild $NAME.dspbuild
+sed -e s/SBo/dsp/g -e s/SlackBuild/dspbuild/g < $NAME.SlackBuild > $NAME.dspbuild
+rm $NAME.SlackBuild
 chmod +x $NAME.dspbuild
 cd $CWD
+./dspbuildlist.sh > dspbuilds.txt
+echo ______________________________________________
+echo $NAME
+echo Moved to $LOCATION
+echo ______________________________________________
