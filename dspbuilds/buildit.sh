@@ -36,5 +36,5 @@ fi
 chmod +x $NAME.dspbuild
 ./$NAME.dspbuild
 cd $CWD
-rm -R $WKGPATH
+# rm -R $WKGPATH
 

@@ -1,3 +1,25 @@
+NAME: horgand
+LOCATION: audio/horgand
+FILES: README doinst.sh horgand.desktop horgand.dspbuild horgand.info setcap.sh slack-desc
+VERSION: 1.14
+DOWNLOAD: http://urchlay.naptime.net/~urchlay/src/horgand-1.14.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: e2bd4720a262cb739a2132904c241828
+D5SUM_x86_64:
+REQUIRES: fltk jack-audio-connection-kit
+SHORT DESCRIPTION: horgand (organ sounds softsynth)
+
+NAME: bluefish
+LOCATION: development/bluefish
+FILES: README bluefish.dspbuild bluefish.info doinst.sh slack-desc
+VERSION: 2.2.10
+DOWNLOAD: http://www.bennewitz.com/bluefish/stable/source/bluefish-2.2.10.tar.bz2
+DOWNLOAD_x86_64:
+MD5SUM: 06cc710505856cb328444d834f5e9666
+D5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: bluefish (GTK-based HTML Editor)
+
 NAME: jdk
 LOCATION: development/jdk
 FILES: README jdk.dspbuild jdk.info profile.d slack-desc
@@ -187,7 +209,7 @@ SHORT DESCRIPTION: zope.event (event publishing system)
 
 NAME: kodi
 LOCATION: multimedia/kodi
-FILES: FFmpeg-3.1.6-Krypton.tar.gz README doinst.sh kodi.dspbuild kodi.info patches slack-desc xbmc-17.1-Krypton.tar.gz
+FILES: FFmpeg-3.1.6-Krypton.tar.gz README doinst.sh kodi.dspbuild kodi.info patches slack-desc
 VERSION: 17.1
 DOWNLOAD: https://github.com/xbmc/xbmc/archive/17.1-Krypton/xbmc-17.1-Krypton.tar.gz https://github.com/xbmc/FFmpeg/archive/3.1.6-Krypton/FFmpeg-3.1.6-Krypton.tar.gz
 DOWNLOAD_x86_64:

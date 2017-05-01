@@ -1,6 +1,6 @@
 #Build and install pkgs & their REQ pkgs
 INAME=$1
-DESTDIR='/home/ftp/dspbuilds'
+DESTDIR='/usr/share/files/dspbuilds'
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"
 FILEIN=$DEFPATH'/dspbuilds.txt'
 TMPFILE='/tmp/dspbt.tmp'
@@ -31,10 +31,15 @@ function build_pkg (){
     read  REQUIRES
     read  SHORT
     rm $TMPFILE
+    if [ "$(grep -c 'NAME: '$NAME $FILEIN)" == "0" ]; then
+        echo ERROR!!! MISSING $NAME
+        exit 69
+    fi
 #    echo Making Package for $NAME
 #    echo from $LOCATION
 #    echo in $WKGPATH
 #echo $DOWNLOAD
+    
     mkdir $WKGPATH
     cd $WKGPATH
     cp -r $DEFPATH/$LOCATION/* ./
@@ -66,7 +71,12 @@ while IFS= read -r line
     done < $BUILDLST
 for PKG in "${FILELIST[@]}"        
     do
-#        echo building $PKG
-        build_pkg $PKG
+#        echo building $PK
+        PKLOC="/var/log/packages/"$PKG"*"
+
+        if [ ! -f $PKLOC ];
+        then build_pkg $PKG 
+        fi
+
     done 
 
