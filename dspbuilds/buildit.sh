@@ -1,7 +1,7 @@
 # builds dsppkg
 NAME=$1
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"
-FILEIN=$DEFPATH'/dspbuilds.txt'
+FILEIN=$DEFPATH'/dspbuilds.lst'
 TMPFILE='/tmp/dsp.tmp'
 CWD=$(pwd)
 WKGPATH=$CWD'/temp/'

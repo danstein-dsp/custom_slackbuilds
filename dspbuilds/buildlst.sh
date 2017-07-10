@@ -1,7 +1,7 @@
 #make list of req to build pkg
 NAME=$1
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"
-FILEIN=$DEFPATH'/dspbuilds.txt'
+FILEIN=$DEFPATH'/dspbuilds.lst'
 TMPFILE='/tmp/dspl.tmp'
 CWD=$(pwd)
 WKGPATH=$CWD'/temp/'

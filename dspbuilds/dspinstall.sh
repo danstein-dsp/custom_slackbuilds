@@ -2,7 +2,7 @@
 INAME=$1
 DESTDIR='/usr/share/files/dspbuilds'
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"
-FILEIN=$DEFPATH'/dspbuilds.txt'
+FILEIN=$DEFPATH'/dspbuilds.lst'
 TMPFILE='/tmp/dspbt.tmp'
 TMPFILE2='/tmp/dspbt2.tmp'
 BUILDLST='/tmp/bldlst.tmp'

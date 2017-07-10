@@ -1,7 +1,8 @@
 # Finds Deps
 NAME=$1
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"
-FILEIN=$DEFPATH'/dspbuilds.txt'
+# FILEIN=$DEFPATH'/dspbuilds.lst'
+FILEIN=$DEFPATH'/slackbuilds.lst'
 TMPFILE='/tmp/dsp.tmp'
 CWD=$(pwd)
 PKGLIST=""

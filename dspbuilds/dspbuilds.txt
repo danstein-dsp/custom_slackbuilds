@@ -207,6 +207,17 @@ D5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: zope.event (event publishing system)
 
+NAME: qtkeychain
+LOCATION: misc/qtkeychain
+FILES: README qtkeychain.dspbuild qtkeychain.info slack-desc
+VERSION: 0.7.0
+DOWNLOAD: https://github.com/frankosterfeld/qtkeychain/archive/v0.7.0.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: 3361893bc8fd176cd35116796df40028
+D5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: qtkeychain (A Qt API to store passwords and secret data securely)
+
 NAME: kodi
 LOCATION: multimedia/kodi
 FILES: FFmpeg-3.1.6-Krypton.tar.gz README doinst.sh kodi.dspbuild kodi.info patches slack-desc
@@ -239,6 +250,17 @@ MD5SUM: 7c5f147039a0e9240926fe1f4d134e81
 D5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: nextcloud-server (ownCloud sync & share server)
+
+NAME: owncloud-client
+LOCATION: network/owncloud-client
+FILES: README doinst.sh owncloud-client.dspbuild owncloud-client.info owncloud.desktop slack-desc
+VERSION: 2.3.2
+DOWNLOAD: https://download.owncloud.com/desktop/stable/owncloudclient-2.3.2.tar.xz
+DOWNLOAD_x86_64:
+MD5SUM: 8ce2442fb0528f224e97166baee2bae1
+D5SUM_x86_64:
+REQUIRES: qtkeychain
+SHORT DESCRIPTION: owncloud-client (ownCloud sync client)
 
 NAME: postfix
 LOCATION: network/postfix

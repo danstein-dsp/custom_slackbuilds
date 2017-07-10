@@ -1,0 +1,16 @@
+The ownCloud Sync Client is a desktop program you install on your computer.
+You specify one or more directories on the local machine to sync with your
+ownCloud server, and always have your latest files wherever you are.  Make
+a change to the files on one computer, it will flow across the others using
+the desktop sync clients.
+
+This package optionally requires the Sphinx package in order to create its
+man pages.
+
+Note:  You must build this package against the same version of Qt that
+       qtkeychain was built against.  This package will automatically build
+       against qt4.  If you wish to build this package against qt5 then you
+       must set the flag BUILD_WITH_QT4 to 'No' when building this package.
+       For example:
+
+       # BUILD_WITH_QT4=No ./owncloud-client.SlackBuild

@@ -1,3 +1,25 @@
+NAME: horgand
+LOCATION: audio/horgand
+FILES: README doinst.sh horgand.desktop horgand.dspbuild horgand.info setcap.sh slack-desc
+VERSION: 1.14
+DOWNLOAD: http://urchlay.naptime.net/~urchlay/src/horgand-1.14.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: e2bd4720a262cb739a2132904c241828
+D5SUM_x86_64:
+REQUIRES: fltk jack-audio-connection-kit
+SHORT DESCRIPTION: horgand (organ sounds softsynth)
+
+NAME: bluefish
+LOCATION: development/bluefish
+FILES: README bluefish.dspbuild bluefish.info doinst.sh slack-desc
+VERSION: 2.2.10
+DOWNLOAD: http://www.bennewitz.com/bluefish/stable/source/bluefish-2.2.10.tar.bz2
+DOWNLOAD_x86_64:
+MD5SUM: 06cc710505856cb328444d834f5e9666
+D5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: bluefish (GTK-based HTML Editor)
+
 NAME: jdk
 LOCATION: development/jdk
 FILES: README jdk.dspbuild jdk.info profile.d slack-desc
@@ -8,6 +30,17 @@ MD5SUM: 9e0e84f36427ce258abfca35fbeb0c55
 D5SUM_x86_64: 91972fb4e753f1b6674c2b952d974320
 REQUIRES:
 SHORT DESCRIPTION: jdk (Java(TM)
+
+NAME: php-apcu
+LOCATION: development/php-apcu
+FILES: README apcu.ini doinst.sh php-apcu.dspbuild php-apcu.info slack-desc
+VERSION: 4.0.11
+DOWNLOAD: https://pecl.php.net/get/apcu-4.0.11.tgz
+DOWNLOAD_x86_64:
+MD5SUM: 13c0c0dd676e5a7905d54fa985d0ee62
+D5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: php-apcu (APCu is userland caching)
 
 NAME: zope.interface
 LOCATION: development/zope.interface
@@ -86,6 +119,17 @@ D5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libass (Subtitle renderer for the ASS/SSA)
 
+NAME: libmemcached
+LOCATION: libraries/libmemcached
+FILES: README libmemcached.dspbuild libmemcached.info patches slack-desc
+VERSION: 1.0.18
+DOWNLOAD: https://launchpad.net/libmemcached/1.0/1.0.18/+download/libmemcached-1.0.18.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: b3958716b4e53ddc5992e6c49d97e819
+D5SUM_x86_64:
+REQUIRES: memcached
+SHORT DESCRIPTION: libmemcached (C and C++ client library to the memcached)
+
 NAME: libmicrohttpd
 LOCATION: libraries/libmicrohttpd
 FILES: README libmicrohttpd.dspbuild libmicrohttpd.info slack-desc
@@ -96,6 +140,17 @@ MD5SUM: 3b9cf0b67fc8ebc9e69f53c6bc84a88d
 D5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libmicrohttpd (HTTP server C library)
+
+NAME: php-memcached
+LOCATION: libraries/php-memcached
+FILES: README doinst.sh php-memcached.dspbuild php-memcached.info slack-desc
+VERSION: 2.2.0
+DOWNLOAD: https://pecl.php.net/get/memcached-2.2.0.tgz
+DOWNLOAD_x86_64:
+MD5SUM: 28937c6144f734e000c6300242f44ce6
+D5SUM_x86_64:
+REQUIRES: libmemcached
+SHORT DESCRIPTION: php-memcached (PHP extension for memcached via libmemcached)
 
 NAME: pycparser
 LOCATION: libraries/pycparser
@@ -152,9 +207,20 @@ D5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: zope.event (event publishing system)
 
+NAME: qtkeychain
+LOCATION: misc/qtkeychain
+FILES: README qtkeychain.dspbuild qtkeychain.info slack-desc
+VERSION: 0.7.0
+DOWNLOAD: https://github.com/frankosterfeld/qtkeychain/archive/v0.7.0.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: 3361893bc8fd176cd35116796df40028
+D5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: qtkeychain (A Qt API to store passwords and secret data securely)
+
 NAME: kodi
 LOCATION: multimedia/kodi
-FILES: FFmpeg-3.1.6-Krypton.tar.gz README doinst.sh kodi.dspbuild kodi.info patches slack-desc xbmc-17.1-Krypton.tar.gz
+FILES: FFmpeg-3.1.6-Krypton.tar.gz README doinst.sh kodi.dspbuild kodi.info patches slack-desc
 VERSION: 17.1
 DOWNLOAD: https://github.com/xbmc/xbmc/archive/17.1-Krypton/xbmc-17.1-Krypton.tar.gz https://github.com/xbmc/FFmpeg/archive/3.1.6-Krypton/FFmpeg-3.1.6-Krypton.tar.gz
 DOWNLOAD_x86_64:
@@ -162,6 +228,28 @@ MD5SUM: 5e1fe4f85373aaaafba81185401ca14f bf8b1689603ae4322b95f4095ad9bd62
 D5SUM_x86_64:
 REQUIRES: jdk libass crossguid yajl tinyxml libmicrohttpd
 SHORT DESCRIPTION: kodi (Multi-platform Media Center)
+
+NAME: memcached
+LOCATION: network/memcached
+FILES: README doinst.sh memcached.dspbuild memcached.info rc.memcached slack-desc
+VERSION: 1.4.36
+DOWNLOAD: http://www.memcached.org/files/memcached-1.4.36.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: 1e028fbab7288911fcaa5ed2a21817fe
+D5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: memcached (object caching system)
+
+NAME: nextcloud-client
+LOCATION: network/nextcloud-client
+FILES: README doinst.sh nextcloud-client.dspbuild nextcloud-client.info nextcloud.desktop slack-desc
+VERSION: 2.3.1
+DOWNLOAD: https://github.com/nextcloud/client_theming/archive/v2.3.1/client_theming-2.3.1.tar.gz https://github.com/owncloud/client/archive/v2.3.1/client-2.3.1.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: 56680f5c9a69cedc951cccb820c4107d 8c06a94c05ad77a24923149b44a10e1f
+D5SUM_x86_64:
+REQUIRES: qtkeychain
+SHORT DESCRIPTION: nextcloud-client (Nextcloud Desktop Client)
 
 NAME: nextcloud-server
 LOCATION: network/nextcloud-server
@@ -173,6 +261,17 @@ MD5SUM: 7c5f147039a0e9240926fe1f4d134e81
 D5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: nextcloud-server (ownCloud sync & share server)
+
+NAME: owncloud-client
+LOCATION: network/owncloud-client
+FILES: README doinst.sh owncloud-client.dspbuild owncloud-client.info owncloud.desktop slack-desc
+VERSION: 2.3.2
+DOWNLOAD: https://download.owncloud.com/desktop/stable/owncloudclient-2.3.2.tar.xz
+DOWNLOAD_x86_64:
+MD5SUM: 8ce2442fb0528f224e97166baee2bae1
+D5SUM_x86_64:
+REQUIRES: qtkeychain
+SHORT DESCRIPTION: owncloud-client (ownCloud sync client)
 
 NAME: postfix
 LOCATION: network/postfix
