@@ -1,8 +1,8 @@
+audio/horgand
+development/bluefish
 development/jdk
 development/php-apcu
 development/zope.interface
-kill/client-2.2.4
-kill/v2.2.4.tar.gz
 libraries/cffi
 libraries/configobj
 libraries/crossguid
@@ -46,3 +46,8 @@ python/pytz
 python/werkzeug
 system/augeas
 system/letsencrypt
+temp/README
+temp/augeas-1.4.0.tar.gz
+temp/augeas.dspbuild
+temp/augeas.info
+temp/slack-desc

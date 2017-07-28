@@ -1,6 +1,5 @@
 CWD=$(pwd)
-cd /home/dan/git/slackbuilds
-OUTFILE=$CWD"/slackbuilds.lst"
+OUTFILE="dspbuilds.lst"
 rm $ITFILE.old
 mv $OUTFILE $OUTFILE.old
 touch $OUTFILE
@@ -21,5 +20,4 @@ for i in */*; do
    echo REQUIRES: $REQUIRES >> $OUTFILE
    echo SHORT DESCRIPTION: $SHORTDES >> $OUTFILE
    echo >> $OUTFILE
- done
- cd $CWD
+done 

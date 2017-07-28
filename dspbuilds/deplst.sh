@@ -1,14 +1,15 @@
 # Finds Deps
 NAME=$1
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"
-# FILEIN=$DEFPATH'/dspbuilds.lst'
-FILEIN=$DEFPATH'/slackbuilds.lst'
+FILEIN=$DEFPATH'/dspbuilds.lst'
+# FILEIN=$DEFPATH'/slackbuilds.lst'
 TMPFILE='/tmp/dsp.tmp'
 CWD=$(pwd)
 PKGLIST=""
 #echo $WKGPATH
-grep -B 8 --no-group-separator 'REQUIRES: '$1 $FILEIN | cut -d " " -f2- > $TMPFILE
-TOTAL=$(grep -c 'REQUIRES: '$1 $FILEIN)
+grep -B 8 --no-group-separator $1 $FILEIN | cut -d " " -f2- > $TMPFILE
+cat $TMPFILE
+TOTAL=$(grep -c $1 $FILEIN)
 exec < $TMPFILE
 C=0
 while [ $C -lt $TOTAL ];    do

@@ -1,17 +1,23 @@
-#Build and install pkgs & their REQ pkgs
+#Build and:Q
+install pkgs & their REQ pkgs
 INAME=$1
 DESTDIR='/usr/share/files/dspbuilds'
 DEFPATH="/home/dan/git/custom_slackbuilds/dspbuilds"
 FILEIN=$DEFPATH'/dspbuilds.lst'
 TMPFILE='/tmp/dspbt.tmp'
 TMPFILE2='/tmp/dspbt2.tmp'
-BUILDLST='/tmp/'$1'bldlst.tmp'
+BUILDLST='/tmp/bldlst.tmp'
 CWD=$(pwd)
 WKGPATH=$CWD'/temp/'
+#echo 1
 ./buildlst.sh $INAME > $TMPFILE
+#echo 2
 ./makeodr.sh $TMPFILE > $TMPFILE2
+#echo 3
 ./rmvdup.sh $TMPFILE2 > $BUILDLST
+
 function build_pkg (){
+#    echo 4
     NAME=$1
     grep -A 9 'NAME: '$NAME $FILEIN | cut -d " " -f2- > $TMPFILE
     exec < $TMPFILE
@@ -27,13 +33,18 @@ function build_pkg (){
     read  SHORT
     rm $TMPFILE
     if [ "$(grep -c 'NAME: '$NAME $FILEIN)" == "0" ]; then
-        echo ERRRR!!! MISSING $NAME ADDING NOW!
-	./mvslb.sh $PKG
-	./dspinstall $PKG
+        echo ERROR!!! MISSING $NAME
+        exit 69
     fi
+#    echo Making Package for $NAME
+#    echo from $LOCATION
+#    echo in $WKGPATH
+#echo $DOWNLOAD
+    
     mkdir $WKGPATH
     cd $WKGPATH
     cp -r $DEFPATH/$LOCATION/* ./
+#echo $DOWNLOAD_x86_64
     if [ "$DOWNLOAD_x86_64" == "DOWNLOAD_x86_64:" ];  then
     echo BOOM
         wget $DOWNLOAD
@@ -49,10 +60,11 @@ function build_pkg (){
     exec < $TMPFILE
     read INPKG
     rm $TMPFILE
-    installpkg $INPKG
+#    echo install $INPKG
+    updatepkg $INPKG
 
 }
-####MAIN####
+#echo working on $BUILDLST
 FILELIST=()
 while IFS= read -r line
     do  
@@ -66,6 +78,6 @@ for PKG in "${FILELIST[@]}"
         if [ ! -f $PKLOC ];
         then build_pkg $PKG 
         fi
-# add checks if pkg prebuilt or needs updating	
+
     done 
 

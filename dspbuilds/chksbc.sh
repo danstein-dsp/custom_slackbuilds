@@ -19,9 +19,10 @@ while IFS= read -r line
     done < $LIST1
 for PKG in "${FILELIST[@]}"
     do
-        grep $PKG $TMP1 >> $LIST2
+        if [ $(grep -c $PKG $TMP1) -gt 0 ]; then 
+            echo $PKG | cut -d "/" -f2- >> $LIST2
+        fi
     done
- 
-#mv SBCL.old SBCL.old.old
-#cp ~/git/slackbuilds/ChangeLog.txt SBCL.old
-
+rm SBCL.old.old
+mv SBCL.old SBCL.old.old
+cp ~/git/slackbuilds/ChangeLog.txt SBCL.old

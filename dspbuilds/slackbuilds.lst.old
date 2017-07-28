@@ -991,10 +991,10 @@ SHORT DESCRIPTION: fastqc (A quality control tool for high throughput sequence d
 NAME: fet
 LOCATION: ./academic/fet
 FILES: README doinst.sh fet.SlackBuild fet.desktop fet.info fet.png slack-desc
-VERSION: 5.31.8
-DOWNLOAD: http://www.lalescu.ro/liviu/fet/download/fet-5.31.8.tar.bz2
+VERSION: 5.31.6
+DOWNLOAD: http://www.lalescu.ro/liviu/fet/download/fet-5.31.6.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: 5cd96409b1dc33df7303ffb83353d84d
+MD5SUM: 19a9a9763ce8a853e83a94ba611ee76c
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: fet (school timetable)
@@ -2091,10 +2091,10 @@ SHORT DESCRIPTION: rbio (sparse matrix I/O routines)
 NAME: reduce-algebra
 LOCATION: ./academic/reduce-algebra
 FILES: README reduce-algebra.SlackBuild reduce-algebra.info slack-desc
-VERSION: 20170712svn4102
-DOWNLOAD: http://downloads.sourceforge.net/reduce-algebra/snapshot_2017-07-12/Reduce-svn4102-src.tar.gz http://downloads.sourceforge.net/reduce-algebra/snapshot_2017-07-12/reduce-common_2017-07-12_all.tgz
+VERSION: 20170516svn4052
+DOWNLOAD: http://downloads.sourceforge.net/reduce-algebra/snapshot_2017-05-16/Reduce-svn4052-src.tar.gz http://downloads.sourceforge.net/reduce-algebra/snapshot_2017-05-16/reduce-common_2017-05-16_all.tgz
 DOWNLOAD_x86_64:
-MD5SUM: 5a57f5dba54ce1e303371190480d9651 700be60b80b6977dd4600a77a6d4ea12
+MD5SUM: 86cc787879a7c248364fae0ce28a2ddc 9b211656fe9a4b27ad706ce93cd7ecb3
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: reduce-algebra (A portable general-purpose computer algebra system)
@@ -4070,11 +4070,11 @@ SHORT DESCRIPTION: gtklick (GUI metronome for JACK)
 
 NAME: guitarix
 LOCATION: ./audio/guitarix
-FILES: README README.online doinst.sh guitarix.1 guitarix.SlackBuild guitarix.info guitarix.rst setcap.sh slack-desc
-VERSION: 0.35.4
-DOWNLOAD: http://downloads.sourceforge.net/guitarix/guitarix2-0.35.4.tar.xz
+FILES: README doinst.sh guitarix.1 guitarix.SlackBuild guitarix.info guitarix.rst setcap.sh slack-desc
+VERSION: 0.35.3
+DOWNLOAD: http://downloads.sourceforge.net/guitarix/guitarix2-0.35.3.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: 959aa6a1706a955ecf7a5052f93a0afc
+MD5SUM: d073e551b2da7d339e738f932150d581
 MD5SUM_x86_64:
 REQUIRES: jack-audio-connection-kit liblrdf lilv
 SHORT DESCRIPTION: guitarix (virtual guitar amplifier for jack)
@@ -5160,10 +5160,10 @@ SHORT DESCRIPTION: paprefs (PulseAudio Preferences)
 NAME: pasystray
 LOCATION: ./audio/pasystray
 FILES: README doinst.sh pasystray.SlackBuild pasystray.info slack-desc
-VERSION: 0.6.0
-DOWNLOAD: https://github.com/christophgysin/pasystray/archive/pasystray-0.6.0.tar.gz
+VERSION: 0.5.2
+DOWNLOAD: https://github.com/christophgysin/pasystray/archive/pasystray-0.5.2.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 938d295520eb0605031f9f3531d5b1d6
+MD5SUM: 0ea894a47a8ab10b830051e3bd89294d
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: pasystray (System tray application for PulseAudio)
@@ -5633,10 +5633,10 @@ SHORT DESCRIPTION: sbagen (Binaural Beat Generator)
 NAME: schismtracker
 LOCATION: ./audio/schismtracker
 FILES: README doinst.sh schismtracker.SlackBuild schismtracker.desktop schismtracker.info slack-desc
-VERSION: 20170420
-DOWNLOAD: https://github.com/schismtracker/schismtracker/archive/20170420/schismtracker-20170420.tar.gz
+VERSION: 20120105
+DOWNLOAD: https://github.com/schismtracker/schismtracker/archive/20120105/schismtracker-20120105.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 1183a835c187387e287cd1e368fee6f3
+MD5SUM: f7e7ae659ef11c3c3950eee5f546d549
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: schismtracker (music tracker/editor)
@@ -6007,10 +6007,10 @@ SHORT DESCRIPTION: twolame (an MP2 Encoder)
 NAME: vamp-plugin-sdk
 LOCATION: ./audio/vamp-plugin-sdk
 FILES: README slack-desc vamp-plugin-sdk.SlackBuild vamp-plugin-sdk.info
-VERSION: 2.7.1
-DOWNLOAD: https://code.soundsoftware.ac.uk/attachments/download/2206/vamp-plugin-sdk-2.7.1.tar.gz
+VERSION: 2.6
+DOWNLOAD: https://code.soundsoftware.ac.uk/attachments/download/1520/vamp-plugin-sdk-2.6.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 41129f07c252dd721ea81ef0265777fd
+MD5SUM: 200d6f5980d8d8877d296975a7e2890b
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: vamp-plugin-sdk (audio analysis API)
@@ -6304,10 +6304,10 @@ SHORT DESCRIPTION: xmms2 (XMMS2 music player)
 NAME: xmp
 LOCATION: ./audio/xmp
 FILES: README doinst.sh slack-desc xmp.SlackBuild xmp.info
-VERSION: 4.1.0
-DOWNLOAD: http://downloads.sourceforge.net/xmp/xmp-4.1.0.tar.gz
+VERSION: 4.0.10
+DOWNLOAD: http://downloads.sourceforge.net/xmp/xmp-4.0.10.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: d9661b0be1a7ec79fd6185b166c4e9dd
+MD5SUM: ffe79874f29aac2ac6da2f9f9bd72da0
 MD5SUM_x86_64:
 REQUIRES: libxmp
 SHORT DESCRIPTION: xmp (Extended Module Player)
@@ -7624,10 +7624,10 @@ SHORT DESCRIPTION: florence (virtual keyboard)
 NAME: fusion-icon
 LOCATION: ./desktop/fusion-icon
 FILES: README README.Slackware doinst.sh fusion-icon.SlackBuild fusion-icon.info slack-desc
-VERSION: 0.2.4
-DOWNLOAD: https://github.com/compiz-reloaded/fusion-icon/releases/download/v0.2.4/fusion-icon-0.2.4.tar.xz
+VERSION: 0.2.3
+DOWNLOAD: https://github.com/compiz-reloaded/fusion-icon/releases/download/v0.2.3/fusion-icon-0.2.3.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: cef25857317f94dfdcc4b289e39a7382
+MD5SUM: 5ba38e5250b4cbb7f75784ccc8586504
 MD5SUM_x86_64:
 REQUIRES: ccsm
 SHORT DESCRIPTION: fusion-icon (A system tray tool for Compiz Fusion)
@@ -8252,9 +8252,9 @@ NAME: lumina
 LOCATION: ./desktop/lumina
 FILES: README lumina.SlackBuild lumina.info slack-desc xinitrc.lumina
 VERSION: 1.3.0_p1
-DOWNLOAD: https://github.com/trueos/lumina/archive/v1.3.0-p1/lumina-1.3.0-p1.tar.gz
+DOWNLOAD: https://github.com/trueos/lumina/archive/v1.3.0/lumina-1.3.0-p1.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 2df745381ef431736d0734afaf61cca4
+MD5SUM: eaeb03435aa39882191087e7f860d591
 MD5SUM_x86_64:
 REQUIRES: qt5
 SHORT DESCRIPTION: lumina (Desktop Environment for BSD)
@@ -9033,9 +9033,9 @@ NAME: plasma-runner-browsefirefoxbookmarks
 LOCATION: ./desktop/plasma-runner-browsefirefoxbookmarks
 FILES: README plasma-runner-browsefirefoxbookmarks.SlackBuild plasma-runner-browsefirefoxbookmarks.info slack-desc
 VERSION: 0.2.4
-DOWNLOAD: https://dl.opendesktop.org/api/files/download/id/1466629160/141042-browsefirefoxbookmarks.tar.gz
+DOWNLOAD: http://jaxartes.net/files/plasma-runner-browsefirefoxbookmarks-0.2.4.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: f1f49309ae712e5044cf7bd8384be0d9
+MD5SUM: 770b3a89c60bde86457317adb90b8dbf
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: plasma-runner-browsefirefoxbookmarks (Firefox bookmarks in Krunner)
@@ -9328,7 +9328,7 @@ SHORT DESCRIPTION: recoll (personal full text search tool)
 
 NAME: recorditnow
 LOCATION: ./desktop/recorditnow
-FILES: README doinst.sh gcc7.patch recorditnow.SlackBuild recorditnow.info slack-desc
+FILES: README doinst.sh recorditnow.SlackBuild recorditnow.info slack-desc
 VERSION: 0.8.1
 DOWNLOAD: http://downloads.sourceforge.net/project/recorditnow/recorditnow-0.8.1.tar.bz2
 DOWNLOAD_x86_64:
@@ -9835,10 +9835,10 @@ SHORT DESCRIPTION: tint2 (panel/taskbar for openbox3 and other window managers)
 NAME: trayer-srg
 LOCATION: ./desktop/trayer-srg
 FILES: README slack-desc trayer-srg.SlackBuild trayer-srg.info
-VERSION: 1.1.7
-DOWNLOAD: https://github.com/sargon/trayer-srg/archive/trayer-1.1.7/trayer-srg-trayer-1.1.7.tar.gz
+VERSION: 20160817
+DOWNLOAD: http://urchlay.naptime.net/~urchlay/src/trayer-srg-20160817.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 0eade29dcd0c3deb8f3efc1651d859c3
+MD5SUM: cd3f627bca1515342b116dada9f9e165
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: trayer-srg (GTK2-based systray for UNIX desktop)
@@ -10902,10 +10902,10 @@ SHORT DESCRIPTION: xtrlock (minimal X display lock)
 NAME: xvkbd
 LOCATION: ./desktop/xvkbd
 FILES: README slack-desc xvkbd.SlackBuild xvkbd.info
-VERSION: 3.8
-DOWNLOAD: http://t-sato.in.coocan.jp/xvkbd/xvkbd-3.8.tar.gz
+VERSION: 3.7
+DOWNLOAD: http://t-sato.in.coocan.jp/xvkbd/xvkbd-3.7.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 0d683f68c92f22cd9a7ffcb6d82c81b6
+MD5SUM: 2f0b5c91b701ea548883607d7b0ad8ec
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: xvkbd (virtual keyboard for X window system)
@@ -10957,10 +10957,10 @@ SHORT DESCRIPTION: yawp (Yet Another Weather Plasmoid)
 NAME: zenity
 LOCATION: ./desktop/zenity
 FILES: README slack-desc zenity.SlackBuild zenity.info
-VERSION: 3.24.0
-DOWNLOAD: http://ftp.acc.umu.se/pub/gnome/sources/zenity/3.24/zenity-3.24.0.tar.xz
+VERSION: 3.20.0
+DOWNLOAD: http://ftp.acc.umu.se/pub/gnome/sources/zenity/3.20/zenity-3.20.0.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: c905318c3ca76172d53829ed2471ac53
+MD5SUM: 23f84cd3807da36455525357385f7586
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: zenity (display gtk dialog boxes from cli)
@@ -11771,10 +11771,10 @@ SHORT DESCRIPTION: bas55 (ECMA-55 Minimal BASIC Interpreter)
 NAME: bashdb
 LOCATION: ./development/bashdb
 FILES: README bashdb.SlackBuild bashdb.info slack-desc
-VERSION: 4.4_0.92
-DOWNLOAD: http://downloads.sourceforge.net/bashdb/bashdb-4.4-0.92.tar.bz2
+VERSION: 4.3_0.91
+DOWNLOAD: http://downloads.sourceforge.net/bashdb/bashdb-4.3-0.91.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: b5e7ac9daf6f9d21f9928f45bf46ded9
+MD5SUM: 71d6be52b7e29599f8bef3380f9050d7
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: bashdb (The BASH Debugger Project)
@@ -11914,10 +11914,10 @@ SHORT DESCRIPTION: bvi (binary vi editor)
 NAME: byacc
 LOCATION: ./development/byacc
 FILES: README byacc.SlackBuild byacc.info slack-desc
-VERSION: 20170709
+VERSION: 20170430
 DOWNLOAD: http://invisible-island.net/datafiles/release/byacc.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 46b11b03160dc318001c9f68c08ccf18
+MD5SUM: bedcb81ac0a469c56584961b72e836e5
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: byacc (parser generator)
@@ -12596,10 +12596,10 @@ SHORT DESCRIPTION: dreampie (Python shell)
 NAME: dwarf
 LOCATION: ./development/dwarf
 FILES: README dwarf.SlackBuild dwarf.info slack-desc
-VERSION: 20170709
-DOWNLOAD: https://www.prevanders.net/libdwarf-20170709.tar.gz
+VERSION: 20170416
+DOWNLOAD: https://www.prevanders.net/libdwarf-20170416.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 68a3c9aa7d01a433924a74bda588b378
+MD5SUM: 6a53d2b55d3ee2da396d4d0711e5c251
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: dwarf (library to consume and produce DWARF debug information)
@@ -12640,44 +12640,44 @@ SHORT DESCRIPTION: ecl (Embeddable Common-Lisp)
 NAME: eclim
 LOCATION: ./development/eclim
 FILES: README eclim.SlackBuild eclim.info slack-desc
-VERSION: 2.7.0
-DOWNLOAD: https://github.com/ervandew/eclim/releases/download/2.7.0/eclim_2.7.0.tar.gz http://central.maven.org/maven2/org/codehaus/gant/gant_groovy2.2/1.9.11/gant_groovy2.2-1.9.11.jar
+VERSION: 2.6.0
+DOWNLOAD: https://github.com/ervandew/eclim/releases/download/2.6.0/eclim_2.6.0.tar.gz http://central.maven.org/maven2/org/codehaus/gant/gant_groovy2.2/1.9.11/gant_groovy2.2-1.9.11.jar
 DOWNLOAD_x86_64:
-MD5SUM: 8d23eb014423bf481349e854e21d18d0 557e401f2e4633ed6ebdab582fb16921
+MD5SUM: 74557a1d0c2fb22ec7ae46e7ad200e49 557e401f2e4633ed6ebdab582fb16921
 MD5SUM_x86_64:
-REQUIRES: apache-ant eclipse-java Sphinx
+REQUIRES: apache-ant eclipse-java sphinxcontrib-plantuml
 SHORT DESCRIPTION: eclim (The power of Eclipse in your favorite editor.)
 
 NAME: eclipse-cpp
 LOCATION: ./development/eclipse-cpp
 FILES: README doinst.sh eclipse-cpp.SlackBuild eclipse-cpp.desktop eclipse-cpp.info eclipse-cpp.png slack-desc
-VERSION: 4.7
-DOWNLOAD: http://download.eclipse.org/technology/epp/downloads/release/oxygen/R/eclipse-cpp-oxygen-R-linux-gtk.tar.gz
-DOWNLOAD_x86_64: http://download.eclipse.org/technology/epp/downloads/release/oxygen/R/eclipse-cpp-oxygen-R-linux-gtk-x86_64.tar.gz
-MD5SUM: cfb6cbacee7c39ec598016e6c59a1451
-MD5SUM_x86_64: 9d4c5cf267bb8b240601e9e7f3a4d8c1
+VERSION: 4.6.3
+DOWNLOAD: http://download.eclipse.org/technology/epp/downloads/release/neon/3/eclipse-cpp-neon-3-linux-gtk.tar.gz
+DOWNLOAD_x86_64: http://download.eclipse.org/technology/epp/downloads/release/neon/3/eclipse-cpp-neon-3-linux-gtk-x86_64.tar.gz
+MD5SUM: 9dc0514adeb0d57eddbb35038e2d7ab0
+MD5SUM_x86_64: 445f46b6f3e83de8576999d32a91600a
 REQUIRES: jdk webkitgtk
 SHORT DESCRIPTION: eclipse-cpp (Eclipse IDE for C/C++ Developers)
 
 NAME: eclipse-java
 LOCATION: ./development/eclipse-java
 FILES: README doinst.sh eclipse-java.SlackBuild eclipse-java.desktop eclipse-java.info slack-desc
-VERSION: 4.7
-DOWNLOAD: http://download.eclipse.org/technology/epp/downloads/release/oxygen/R/eclipse-java-oxygen-R-linux-gtk.tar.gz
-DOWNLOAD_x86_64: http://download.eclipse.org/technology/epp/downloads/release/oxygen/R/eclipse-java-oxygen-R-linux-gtk-x86_64.tar.gz
-MD5SUM: 9a79d70e5a7c60816824267fd708c3f1
-MD5SUM_x86_64: 9c7b80a9c11f30802cdb8d041b58f808
+VERSION: 4.6.3
+DOWNLOAD: http://download.eclipse.org/technology/epp/downloads/release/neon/3/eclipse-java-neon-3-linux-gtk.tar.gz
+DOWNLOAD_x86_64: http://download.eclipse.org/technology/epp/downloads/release/neon/3/eclipse-java-neon-3-linux-gtk-x86_64.tar.gz
+MD5SUM: 86303435a2e3ad87ef043a7c9f68b7df
+MD5SUM_x86_64: 74962bf6d674fda7da30aafdb5f6ce86
 REQUIRES: jdk webkitgtk
 SHORT DESCRIPTION: eclipse-java (Eclipse IDE for Java Developers)
 
 NAME: eclipse-jee
 LOCATION: ./development/eclipse-jee
 FILES: README doinst.sh eclipse-jee.SlackBuild eclipse-jee.desktop eclipse-jee.info slack-desc
-VERSION: 4.7
-DOWNLOAD: http://download.eclipse.org/technology/epp/downloads/release/oxygen/R/eclipse-jee-oxygen-R-linux-gtk.tar.gz
-DOWNLOAD_x86_64: http://download.eclipse.org/technology/epp/downloads/release/oxygen/R/eclipse-jee-oxygen-R-linux-gtk-x86_64.tar.gz
-MD5SUM: ff2a68255cad621e82c252263af92143
-MD5SUM_x86_64: ad9a8af880b26c41f06975dfad0db317
+VERSION: 4.6.3
+DOWNLOAD: http://download.eclipse.org/technology/epp/downloads/release/neon/3/eclipse-jee-neon-3-linux-gtk.tar.gz
+DOWNLOAD_x86_64: http://download.eclipse.org/technology/epp/downloads/release/neon/3/eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz
+MD5SUM: 3b7f6e2c1c0af0c28f64fef9c021e107
+MD5SUM_x86_64: 74063c84ecba089321c1e5d91276014c
 REQUIRES: jdk webkitgtk
 SHORT DESCRIPTION: eclipse-jee (Eclipse IDE for Java EE Developers)
 
@@ -13124,11 +13124,11 @@ SHORT DESCRIPTION: git-cola (a GUI for git)
 NAME: git-lfs
 LOCATION: ./development/git-lfs
 FILES: README git-lfs.SlackBuild git-lfs.info slack-desc
-VERSION: 2.2.1
-DOWNLOAD: https://github.com/github/git-lfs/releases/download/v2.2.1/git-lfs-linux-386-2.2.1.tar.gz
-DOWNLOAD_x86_64: https://github.com/github/git-lfs/releases/download/v2.2.1/git-lfs-linux-amd64-2.2.1.tar.gz
-MD5SUM: 021c1f3f7fcffc9a99ee1b73aee7b741
-MD5SUM_x86_64: e7ea2b8056c0d80a51affd37d582104f
+VERSION: 2.2.0
+DOWNLOAD: https://github.com/github/git-lfs/releases/download/v2.2.0/git-lfs-linux-386-2.2.0.tar.gz
+DOWNLOAD_x86_64: https://github.com/github/git-lfs/releases/download/v2.2.0/git-lfs-linux-amd64-2.2.0.tar.gz
+MD5SUM: f18aab26d3c15147dbc71aa4139f8a3e
+MD5SUM_x86_64: 12f1c3a998e62960ccb03f2eed22b5b7
 REQUIRES:
 SHORT DESCRIPTION: git-lfs (Git extension)
 
@@ -13553,10 +13553,10 @@ SHORT DESCRIPTION: hhvm (a virtual machine designed for executing Hack and PHP)
 NAME: highlight
 LOCATION: ./development/highlight
 FILES: README doinst.sh highlight.SlackBuild highlight.info slack-desc
-VERSION: 3.38
-DOWNLOAD: http://www.andre-simon.de/zip/highlight-3.38.tar.bz2
+VERSION: 3.22
+DOWNLOAD: http://www.andre-simon.de/zip/highlight-3.22.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: cb6f5678455200d28dcdbc1028d35693
+MD5SUM: 6e6e12b7ee966fe6b1a31eeda3f0761a
 MD5SUM_x86_64:
 REQUIRES: lua
 SHORT DESCRIPTION: highlight (a universal syntax highlighter)
@@ -14729,7 +14729,7 @@ SHORT DESCRIPTION: mono-debugger (Mono-specific debuggers)
 
 NAME: monodevelop
 LOCATION: ./development/monodevelop
-FILES: README doinst.sh fix-nuget-mgm.patch monodevelop.SlackBuild monodevelop.info slack-desc srcpkg
+FILES: README doinst.sh monodevelop.SlackBuild monodevelop.info slack-desc srcpkg
 VERSION: 6.3.0.864
 DOWNLOAD: http://sourceforge.net/projects/slackbuildsdirectlinks/files/monodevelop/monodevelop-6.3.0.864.tar.bz2
 DOWNLOAD_x86_64:
@@ -14961,10 +14961,10 @@ SHORT DESCRIPTION: ninja-ide (Cross-platform IDE focused on Python app. developm
 NAME: nodejs
 LOCATION: ./development/nodejs
 FILES: README nodejs.SlackBuild nodejs.info npm.sh slack-desc
-VERSION: 6.11.1
-DOWNLOAD: https://nodejs.org/dist/v6.11.1/node-v6.11.1.tar.xz
+VERSION: 6.11.0
+DOWNLOAD: https://nodejs.org/dist/v6.11.0/node-v6.11.0.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: 90d27f96c64025bff7b5b3b59d674fe9
+MD5SUM: 301c9afa4848561173d1dbe017d03636
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: nodejs (JavaScript runtime)
@@ -15335,10 +15335,10 @@ SHORT DESCRIPTION: p4v (Perforce Visual Client)
 NAME: pandas
 LOCATION: ./development/pandas
 FILES: README pandas.SlackBuild pandas.info slack-desc
-VERSION: 0.20.3
-DOWNLOAD: https://pypi.python.org/packages/ee/aa/90c06f249cf4408fa75135ad0df7d64c09cf74c9870733862491ed5f3a50/pandas-0.20.3.tar.gz
+VERSION: 0.20.1
+DOWNLOAD: https://pypi.python.org/packages/34/fd/0cb98ea4df08c82af3de93da5b9f79d573c6ecc05098905f9cd6b0bece51/pandas-0.20.1.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 4df858f28b4bf4fa07d9fbb7f2568173
+MD5SUM: 0b4b377994461068ea7751dedfa1cb4a
 MD5SUM_x86_64:
 REQUIRES: numpy python-dateutil pytz
 SHORT DESCRIPTION: pandas (Powerful data structures)
@@ -15402,7 +15402,7 @@ NAME: perf
 LOCATION: ./development/perf
 FILES: README perf.SlackBuild perf.info slack-desc
 VERSION: 4.4.75
-DOWNLOAD: http://www.pastemobile.org/static/perf.dummy
+DOWNLOAD: http://www.pastemobile.org/perf.dummy
 DOWNLOAD_x86_64:
 MD5SUM: 9cba6c70fb57a22a155073d54748b614
 MD5SUM_x86_64:
@@ -15478,10 +15478,10 @@ SHORT DESCRIPTION: pingendo (An WYSIWYG HTML5 editor focused on Bootstrap UI)
 NAME: pkgconf
 LOCATION: ./development/pkgconf
 FILES: README pkgconf.SlackBuild pkgconf.info slack-desc
-VERSION: 1.3.7
-DOWNLOAD: https://distfiles.dereferenced.org/pkgconf/pkgconf-1.3.7.tar.xz
+VERSION: 1.2.1
+DOWNLOAD: https://distfiles.dereferenced.org/pkgconf/pkgconf-1.2.1.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: ac35c34d84eeb6a03d4d61b8555d6197
+MD5SUM: 43a4857f46d97123965c815c3b0514d2
 MD5SUM_x86_64:
 REQUIRES: %README%
 SHORT DESCRIPTION: pkgconf (package compiler and linker metadata toolkit)
@@ -15686,11 +15686,11 @@ SHORT DESCRIPTION: pyvim (Vim in Python)
 
 NAME: qbs
 LOCATION: ./development/qbs
-FILES: 01-corelib.qbs.patch 02-corelib-tools.pri.patch README qbs-config-ui.desktop qbs.SlackBuild qbs.info slack-desc
-VERSION: 1.8.1
-DOWNLOAD: https://github.com/qt-labs/qbs/archive/v1.8.1/qbs-1.8.1.tar.gz
+FILES: README qbs-config-ui.desktop qbs.SlackBuild qbs.info slack-desc
+VERSION: 1.8.0
+DOWNLOAD: https://github.com/qt-labs/qbs/archive/v1.8.0/qbs-1.8.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: f571ae89a767d488710f2a4df878abad
+MD5SUM: 928deb848b406c64ced62bfcf0c1b796
 MD5SUM_x86_64:
 REQUIRES: qt5
 SHORT DESCRIPTION: qbs (Qt Build Suite)
@@ -16028,13 +16028,13 @@ SHORT DESCRIPTION: setuptools-git (Setuptools revision control system plugin for
 NAME: shc
 LOCATION: ./development/shc
 FILES: README shc.SlackBuild shc.info slack-desc
-VERSION: 3.9.6
-DOWNLOAD: https://github.com/neurobin/shc/archive/3.9.6/shc-3.9.6.tar.gz
+VERSION: 3.8.7
+DOWNLOAD: http://www.datsi.fi.upm.es/~frosal/sources/shc-3.8.7.tgz
 DOWNLOAD_x86_64:
-MD5SUM: da777637594be58caf33509d2ca0fbea
+MD5SUM: 6057436b4f00b2e0dbf5d364263d822e
 MD5SUM_x86_64:
 REQUIRES:
-SHORT DESCRIPTION: shc (Shell script compiler)
+SHORT DESCRIPTION: shc (generic SHell script Compiler)
 
 NAME: shed
 LOCATION: ./development/shed
@@ -16336,10 +16336,10 @@ SHORT DESCRIPTION: squirrel-sql (universal database client)
 NAME: src-vcs
 LOCATION: ./development/src-vcs
 FILES: README slack-desc src-vcs.SlackBuild src-vcs.info
-VERSION: 1.13
-DOWNLOAD: http://www.catb.org/~esr/src/src-1.13.tar.gz
+VERSION: 1.11
+DOWNLOAD: http://www.catb.org/~esr/src/src-1.11.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: d6c6f4615d33cc3cac3653d4ec8c3ca2
+MD5SUM: f5edff5f8f0a62290f1b604a3769cf20
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: src-vcs (Simple Revision Control)
@@ -16809,10 +16809,10 @@ SHORT DESCRIPTION: vala-12 (Compiler for the GObject type system)
 NAME: valgrind
 LOCATION: ./development/valgrind
 FILES: README slack-desc valgrind.SlackBuild valgrind.info
-VERSION: 3.13.0
-DOWNLOAD: http://sourceware.org/pub/valgrind/valgrind-3.13.0.tar.bz2
+VERSION: 3.12.0
+DOWNLOAD: http://www.valgrind.org/downloads/valgrind-3.12.0.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: 817dd08f1e8a66336b9ff206400a5369
+MD5SUM: 6eb03c0c10ea917013a7622e483d61bb
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: valgrind (award-winning suite of tools for debugging)
@@ -16918,11 +16918,11 @@ SHORT DESCRIPTION: wxHexEditor (a free hex editor)
 
 NAME: xa
 LOCATION: ./development/xa
-FILES: README dxa-malloc-patch.txt dxa-valgrind-patch.txt slack-desc xa.SlackBuild xa.info
-VERSION: 2.3.8
-DOWNLOAD: http://www.floodgap.com/retrotech/xa/dists/xa-2.3.8.tar.gz http://www.floodgap.com/retrotech/xa/dists/dxa-0.1.3.tar.gz
+FILES: README dxa-malloc-patch.txt dxa-malloc-patch.txt.1 dxa-valgrind-patch.txt dxa-valgrind-patch.txt.1 slack-desc xa.SlackBuild xa.info
+VERSION: 2.3.7
+DOWNLOAD: http://www.floodgap.com/retrotech/xa/dists/xa-2.3.7.tar.gz http://www.floodgap.com/retrotech/xa/dists/dxa-0.1.3.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 884c3dc5bcc8e8f10b05a6907781623d 4fb88a7eda5939472b3a1d1c48b057fc
+MD5SUM: 431468305f37aa971e945215f8856006 4fb88a7eda5939472b3a1d1c48b057fc
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: You must make exactly 11 lines for the formatting to be correct. It's also
@@ -17336,11 +17336,11 @@ SHORT DESCRIPTION: QuickNES-Core (libretro QuickNES core library)
 
 NAME: RetroArch
 LOCATION: ./games/RetroArch
-FILES: README RetroArch.SlackBuild RetroArch.info doinst.sh slack-desc udev.patch.gz
-VERSION: 1.6.1
-DOWNLOAD: http://ks392457.kimsufi.com/orbea/stuff/slackbuilds/src/RetroArch-1.6.1.tar.xz
+FILES: README RetroArch.SlackBuild RetroArch.info disable_core_update.patch.gz doinst.sh python3.diff.gz slack-desc
+VERSION: 1.4.1
+DOWNLOAD: http://ks392457.kimsufi.com/orbea/stuff/slackbuilds/src/RetroArch-1.4.1.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: cd0c6e3be626f66acd8a41eb9f9a5834
+MD5SUM: c479201bcc9092cc339f5024897d5eb5
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: RetroArch (Reference frontend for the libretro API)
@@ -18668,10 +18668,10 @@ SHORT DESCRIPTION: dopewars (Drug Dealing Game)
 NAME: dreamchess
 LOCATION: ./games/dreamchess
 FILES: README doinst.sh dreamchess.SlackBuild dreamchess.info slack-desc
-VERSION: 0.2.1_RC2
-DOWNLOAD: https://github.com/dreamchess/dreamchess/releases/download/0.2.1-RC2/dreamchess-0.2.1-RC2.tar.gz
+VERSION: 0.2.0
+DOWNLOAD: http://sourceforge.net/projects/dreamchess/files/dreamchess/0.2.0/dreamchess-0.2.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: afb6d1b81d324dc76238f3607d84af30
+MD5SUM: 0e837e14819c1e7d0232c6beb4d5c185
 MD5SUM_x86_64:
 REQUIRES: mxml
 SHORT DESCRIPTION: dreamchess (chess game)
@@ -19019,11 +19019,11 @@ SHORT DESCRIPTION: firestorm-opensim (an alternative Second Life client)
 
 NAME: fizmo
 LOCATION: ./games/fizmo
-FILES: README doinst.sh fizmo.SlackBuild fizmo.desktop fizmo.info fizmo.png slack-desc
-VERSION: 0.8.5_b1
-DOWNLOAD: https://fizmo.spellbreaker.org/source-beta/fizmo-0.8.5-b1.tar.gz
+FILES: README fizmo.SlackBuild fizmo.info slack-desc
+VERSION: 0.8.2
+DOWNLOAD: https://fizmo.spellbreaker.org/source/fizmo-0.8.2.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 2e68e334c76069db3dc1283e84a8bd14
+MD5SUM: fd02653925463892612026c25deb1532
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: fizmo (Z-Code interpreter for Infocom and other story files)
@@ -21098,11 +21098,11 @@ SHORT DESCRIPTION: pcsx-rearmed (ARM optimized PCSX fork)
 
 NAME: pcsx2
 LOCATION: ./games/pcsx2
-FILES: README doinst.sh osd_font.diff.gz pcsx2.SlackBuild pcsx2.info slack-desc
-VERSION: 2017.05.21_7d75a7310
-DOWNLOAD: http://ks392457.kimsufi.com/orbea/stuff/slackbuilds/src/pcsx2-2017.05.21_7d75a7310.tar.xz
+FILES: README doinst.sh osd_font.diff.gz pcsx2.SlackBuild pcsx2.info project_metafalica.diff.gz slack-desc
+VERSION: 2017.02.01_23d081ab2
+DOWNLOAD: http://ks392457.kimsufi.com/orbea/stuff/slackbuilds/src/pcsx2-2017.02.01_23d081ab2.tar.xz
 DOWNLOAD_x86_64: UNSUPPORTED
-MD5SUM: 03a146b2ee7ae438505ea95da893a8a4
+MD5SUM: a8a9b27362371b2fc476ec2cf9ae1405
 MD5SUM_x86_64:
 REQUIRES: SDL2 wxGTK3 portaudio soundtouch
 SHORT DESCRIPTION: pcsx2 (Playstation 2 emulator)
@@ -21198,10 +21198,10 @@ SHORT DESCRIPTION: pingus (A free Lemmings clone)
 NAME: pioneer
 LOCATION: ./games/pioneer
 FILES: README doinst.sh pioneer.SlackBuild pioneer.info slack-desc
-VERSION: 20170415
-DOWNLOAD: https://github.com/pioneerspacesim/pioneer/archive/20170415/pioneer-20170415.tar.gz
+VERSION: 20161129
+DOWNLOAD: https://github.com/pioneerspacesim/pioneer/archive/20161129/pioneer-20161129.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: e8f1a5856ac415188091305a864053c2
+MD5SUM: c6be416ec00adca72a10343d04a7e4a8
 MD5SUM_x86_64:
 REQUIRES: SDL2_image assimp
 SHORT DESCRIPTION: pioneer (A game of lonely space adventure)
@@ -21341,10 +21341,10 @@ SHORT DESCRIPTION: pysolfc (a solitaire suite)
 NAME: qmc2
 LOCATION: ./games/qmc2
 FILES: README doinst.sh qmc2.SlackBuild qmc2.desktop qmc2.info qmc2.png slack-desc
-VERSION: 0.187
-DOWNLOAD: http://downloads.sourceforge.net/qmc2/qmc2-0.187.tar.bz2
+VERSION: 0.50
+DOWNLOAD: http://downloads.sourceforge.net/qmc2/qmc2-0.50.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: 20a512485c86012df45e4ce17999483f
+MD5SUM: 742085b3cbab5801b0331f488f8eff1c
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: qmc2 (M.A.M.E./M.E.S.S. Catalog / Launcher II)
@@ -22085,6 +22085,28 @@ MD5SUM: 4972a502b14456e145ee3fb75e3203bb
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: tintin (console MUD client)
+
+NAME: tmw
+LOCATION: ./games/tmw
+FILES: README doinst.sh slack-desc tmw-0.0.29.1-gcc45.patch tmw.SlackBuild tmw.info
+VERSION: 0.0.29.1
+DOWNLOAD: http://pkgs.fedoraproject.org/repo/pkgs/manaworld/tmw-0.0.29.1.tar.gz/263de26c8545a261c6b82b7ae639f733/tmw-0.0.29.1.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: 263de26c8545a261c6b82b7ae639f733
+MD5SUM_x86_64:
+REQUIRES: guichan physfs
+SHORT DESCRIPTION: tmw (A Free Open Source 2D MMORPG)
+
+NAME: tmwmusic
+LOCATION: ./games/tmwmusic
+FILES: README slack-desc tmwmusic.SlackBuild tmwmusic.info
+VERSION: 0.2
+DOWNLOAD: http://downloads.sourceforge.net/themanaworld/tmwmusic-0.2.tar.gz
+DOWNLOAD_x86_64:
+MD5SUM: 66c9141d48a7e2ac34e7ab66298ee73c
+MD5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: tmwmusic (Music for the game The Mana World)
 
 NAME: tome
 LOCATION: ./games/tome
@@ -23344,8 +23366,8 @@ NAME: google-earth
 LOCATION: ./gis/google-earth
 FILES: README doinst.sh google-earth-mimetypes.xml google-earth.SlackBuild google-earth.info slack-desc
 VERSION: 7.1.8.3036
-DOWNLOAD: https://dl.google.com/linux/earth/deb/pool/main/g/google-earth-stable/google-earth-stable_7.1.8.3036-r0_i386.deb
-DOWNLOAD_x86_64: https://dl.google.com/linux/earth/deb/pool/main/g/google-earth-stable/google-earth-stable_7.1.8.3036-r0_amd64.deb
+DOWNLOAD: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
+DOWNLOAD_x86_64: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
 MD5SUM: bf6ccc911ce09a9ec5dc0e6ee98e92d5
 MD5SUM_x86_64: 77cb0eacde195c224767a77ccf54c8ef
 REQUIRES:
@@ -23915,10 +23937,10 @@ SHORT DESCRIPTION: GPS (GIMP Paint Studio)
 NAME: GraphicsMagick
 LOCATION: ./graphics/GraphicsMagick
 FILES: GraphicsMagick.SlackBuild GraphicsMagick.info README slack-desc
-VERSION: 1.3.26
-DOWNLOAD: http://downloads.sourceforge.net/graphicsmagick/GraphicsMagick-1.3.26.tar.bz2
+VERSION: 1.3.25
+DOWNLOAD: http://downloads.sourceforge.net/graphicsmagick/GraphicsMagick-1.3.25.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: ff4bd0b6ef3c4d8e9eb8a808af9ee23b
+MD5SUM: acefc50c7de1a82f325bd8c7bf0508c2
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: GraphicsMagick (Image Processing System)
@@ -24321,11 +24343,11 @@ SHORT DESCRIPTION: fbv (image viewer for framebuffer console)
 
 NAME: feh
 LOCATION: ./graphics/feh
-FILES: README doinst.sh feh.SlackBuild feh.info slack-desc
-VERSION: 2.19
-DOWNLOAD: https://feh.finalrewind.org/feh-2.19.tar.bz2
+FILES: README feh.SlackBuild feh.info slack-desc
+VERSION: 2.14
+DOWNLOAD: https://feh.finalrewind.org/feh-2.14.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: 54fc20a0f35f0e2fea24541e622ae1d7
+MD5SUM: 79c2e287f00071066b2857ade0b03560
 MD5SUM_x86_64:
 REQUIRES: imlib2
 SHORT DESCRIPTION: feh (image viewer)
@@ -24531,10 +24553,10 @@ SHORT DESCRIPTION: gimp-feca_hdr-plugin (HDR (tone mapping)
 NAME: gimp-lqr-plugin
 LOCATION: ./graphics/gimp-lqr-plugin
 FILES: README gimp-lqr-plugin.SlackBuild gimp-lqr-plugin.info slack-desc
-VERSION: 0.7.2
-DOWNLOAD: http://liquidrescale.wikidot.com/local--files/en:download-page-sources/gimp-lqr-plugin-0.7.2.tar.bz2
+VERSION: 0.7.1
+DOWNLOAD: http://liquidrescale.wikidot.com/local--files/en:download-page-sources/gimp-lqr-plugin-0.7.1.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: af7eb1a0d480bacfa6e5eff9b06bd877
+MD5SUM: d7ee28b16bdbd9f46bc9f21cf5deb487
 MD5SUM_x86_64:
 REQUIRES: liblqr
 SHORT DESCRIPTION: gimp-lqr-plugin (Liquid Rescale GIMP plugin)
@@ -24741,7 +24763,7 @@ NAME: hugin
 LOCATION: ./graphics/hugin
 FILES: README doinst.sh hugin.SlackBuild hugin.info slack-desc
 VERSION: 2017.0.0
-DOWNLOAD: https://downloads.sourceforge.net/project/hugin/hugin/hugin-2017.0/hugin-2017.0.0.tar.bz2
+DOWNLOAD: https://downloads.sourceforge.net/hugin/hugin-2017.0.tar.bz2
 DOWNLOAD_x86_64:
 MD5SUM: 3b49a905da8ee395774347ee6b3903b0
 MD5SUM_x86_64:
@@ -25433,10 +25455,10 @@ SHORT DESCRIPTION: povray (3D graphics tool)
 NAME: psftools
 LOCATION: ./graphics/psftools
 FILES: README psftools.SlackBuild psftools.info slack-desc
-VERSION: 1.0.10
-DOWNLOAD: http://www.seasip.info/Unix/PSF/psftools-1.0.10.tar.gz
+VERSION: 1.0.7
+DOWNLOAD: http://www.seasip.info/Unix/PSF/psftools-1.0.7.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: c0037435aa44619be9c6c6dc8c4bccc1
+MD5SUM: 159022aae93a797dbc2a01014acbd115
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: psftools (tools for converting between bitmap font formats)
@@ -28667,10 +28689,10 @@ SHORT DESCRIPTION: CGAL (Computational Geometry Algorithms Library)
 NAME: CherryPy
 LOCATION: ./libraries/CherryPy
 FILES: CherryPy.SlackBuild CherryPy.info README slack-desc
-VERSION: 11.0.0
-DOWNLOAD: https://pypi.python.org/packages/bf/2b/febc9a1f09bf9249b0ce1723d06dbedd9ff34879b76d17180611c48a7f63/CherryPy-11.0.0.tar.gz
+VERSION: 10.2.2
+DOWNLOAD: https://pypi.python.org/packages/a2/de/dddea0c4d4be436724bfc2d1486c99368541d93c269bfa2a7fa3d132021e/CherryPy-10.2.2.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 3caf903447ed39057466256fa9c69554
+MD5SUM: 105cbcd4f7cd139ab4107f1b0e39afe3
 MD5SUM_x86_64:
 REQUIRES: cheroot portend
 SHORT DESCRIPTION: CherryPy (A pythonic, object-oriented web development framework)
@@ -28964,10 +28986,10 @@ SHORT DESCRIPTION: ORBit2 (CORBA ORB library)
 NAME: OpenAL
 LOCATION: ./libraries/OpenAL
 FILES: OpenAL.SlackBuild OpenAL.info README slack-desc
-VERSION: 1.18.0
-DOWNLOAD: http://kcat.strangesoft.net/openal-releases/openal-soft-1.18.0.tar.bz2
+VERSION: 1.17.2
+DOWNLOAD: http://kcat.strangesoft.net/openal-releases/openal-soft-1.17.2.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: 704d41343b52dd04115de2dcdac5de03
+MD5SUM: 1764e0d8fec499589b47ebc724e0913d
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: OpenAL (a cross-platform 3D audio API)
@@ -29778,10 +29800,10 @@ SHORT DESCRIPTION: c++-gtk-utils (C++ lightweight library for GTK+)
 NAME: c-ares
 LOCATION: ./libraries/c-ares
 FILES: README c-ares.SlackBuild c-ares.info slack-desc
-VERSION: 1.13.0
-DOWNLOAD: https://c-ares.haxx.se/download/c-ares-1.13.0.tar.gz
+VERSION: 1.12.0
+DOWNLOAD: https://c-ares.haxx.se/download/c-ares-1.12.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: d2e010b43537794d8bedfb562ae6bba2
+MD5SUM: 2ca44be1715cd2c5666a165d35788424
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: c-ares (C library for DNS requests)
@@ -29998,10 +30020,10 @@ SHORT DESCRIPTION: configobj (configuration file python module)
 NAME: confuse
 LOCATION: ./libraries/confuse
 FILES: README confuse.SlackBuild confuse.info slack-desc
-VERSION: 3.2
-DOWNLOAD: https://github.com/martinh/libconfuse/releases/download/v3.2/confuse-3.2.tar.gz
+VERSION: 2.7
+DOWNLOAD: http://savannah.nongnu.org/download/confuse/confuse-2.7.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 85f2c36da317fd2d92d3fd4813cbdcfb
+MD5SUM: 45932fdeeccbb9ef4228f1c1a25e9c8f
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: confuse (configuration file parser library)
@@ -30868,9 +30890,9 @@ NAME: girara
 LOCATION: ./libraries/girara
 FILES: README girara.SlackBuild girara.info slack-desc
 VERSION: 0.2.7
-DOWNLOAD: https://github.com/pwmt/girara/archive/0.2.7/girara-0.2.7.tar.gz
+DOWNLOAD: https://pwmt.org/projects/girara/download/girara-0.2.7.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 9aea6ba35159360fffe61e80fcc8fcf9
+MD5SUM: c6f3b284f458f747823666e03fda022b
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: girara (GTK+ based GUI for text-oriented applications)
@@ -31450,12 +31472,12 @@ SHORT DESCRIPTION: hpx (C++ Standards Library for Concurrency and Parallelism)
 NAME: html5lib
 LOCATION: ./libraries/html5lib
 FILES: README html5lib.SlackBuild html5lib.info slack-desc
-VERSION: 0.999999999
-DOWNLOAD: https://pypi.python.org/packages/17/ee/99e69cdcefc354e0c18ff2cc60aeeb5bfcc2e33f051bf0cc5526d790c445/html5lib-0.999999999.tar.gz
+VERSION: 0.9999999
+DOWNLOAD: https://github.com/html5lib/html5lib-python/archive/0.9999999/html5lib-python-0.9999999.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 8578e4e3a341436cb9743a9e4a299239
+MD5SUM: 2ca78b1ec5852779bc121a97da6e8d4d
 MD5SUM_x86_64:
-REQUIRES: six python-webencodings
+REQUIRES: six
 SHORT DESCRIPTION: html5lib (HTML parser based on the HTML5 specification)
 
 NAME: htmlcxx
@@ -31758,10 +31780,10 @@ SHORT DESCRIPTION: jreen (Extensible Qt-based asynchronious Jabber library)
 NAME: json-glib
 LOCATION: ./libraries/json-glib
 FILES: README json-glib.SlackBuild json-glib.info slack-desc
-VERSION: 1.2.8
-DOWNLOAD: http://ftp.acc.umu.se/pub/GNOME/sources/json-glib/1.2/json-glib-1.2.8.tar.xz
+VERSION: 1.0.4
+DOWNLOAD: http://ftp.acc.umu.se/pub/GNOME/sources/json-glib/1.0/json-glib-1.0.4.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: ff31e7d0594df44318e12facda3d086e
+MD5SUM: 3131b0417ecde3da1ae72acceaa375cf
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: json-glib (a de/serialization library for the JS Object Notation)
@@ -31769,10 +31791,10 @@ SHORT DESCRIPTION: json-glib (a de/serialization library for the JS Object Notat
 NAME: jsoncpp
 LOCATION: ./libraries/jsoncpp
 FILES: README jsoncpp.SlackBuild jsoncpp.info slack-desc
-VERSION: 1.8.1
-DOWNLOAD: https://github.com/open-source-parsers/jsoncpp/archive/1.8.1/jsoncpp-1.8.1.tar.gz
+VERSION: 1.8.0
+DOWNLOAD: https://github.com/open-source-parsers/jsoncpp/archive/1.8.0/jsoncpp-1.8.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: b1815c611fa142e2dcb16459d38cbbe8
+MD5SUM: 6d6cbd82b5fe4a9cbae4ffef01f9e9fc
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: jsoncpp (JSON C++ library)
@@ -32583,10 +32605,10 @@ SHORT DESCRIPTION: libearth (The shared common library for Earth Reader apps)
 NAME: libeatmydata
 LOCATION: ./libraries/libeatmydata
 FILES: README libeatmydata.SlackBuild libeatmydata.info slack-desc
-VERSION: 105
-DOWNLOAD: https://www.flamingspork.com/projects/libeatmydata/libeatmydata-105.tar.gz
+VERSION: 82
+DOWNLOAD: https://www.flamingspork.com/projects/libeatmydata/libeatmydata-82.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 6681166466e589eb0d71177709361256
+MD5SUM: 56a4d342f209ab75a9ee360236e3e5bc
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libeatmydata (a small LD_PRELOAD library designed to disable fsync)
@@ -33299,7 +33321,7 @@ NAME: libgringotts
 LOCATION: ./libraries/libgringotts
 FILES: README libgringotts.SlackBuild libgringotts.info slack-desc
 VERSION: 1.2.1
-DOWNLOAD: https://sourceforge.net/projects/gringotts.berlios/files/libgringotts-1.2.1.tar.bz2
+DOWNLOAD: https://pkgs.fedoraproject.org/repo/pkgs/libgringotts/libgringotts-1.2.1.tar.bz2/b2b1bad56ef33153f251ccd9500860be/libgringotts-1.2.1.tar.bz2
 DOWNLOAD_x86_64:
 MD5SUM: b2b1bad56ef33153f251ccd9500860be
 MD5SUM_x86_64:
@@ -33394,17 +33416,6 @@ MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libicns (library for manipulating MacOS X .icns icon format)
 
-NAME: libidn2
-LOCATION: ./libraries/libidn2
-FILES: README libidn2.SlackBuild libidn2.info slack-desc
-VERSION: 2.0.2
-DOWNLOAD: https://ftp.gnu.org/gnu/libidn/libidn2-2.0.2.tar.gz
-DOWNLOAD_x86_64:
-MD5SUM: 7bbf566f521c0b015564ce6058a6b0ba
-MD5SUM_x86_64:
-REQUIRES:
-SHORT DESCRIPTION: libidn2 (GNU IDN Library version 2)
-
 NAME: libiec61883
 LOCATION: ./libraries/libiec61883
 FILES: README libiec61883.SlackBuild libiec61883.info slack-desc
@@ -33474,10 +33485,10 @@ SHORT DESCRIPTION: libiptcdata (library to manipulate iptc image metadata)
 NAME: libircclient
 LOCATION: ./libraries/libircclient
 FILES: README libircclient-1.6-rfc.patch libircclient.SlackBuild libircclient.info slack-desc
-VERSION: 1.9
-DOWNLOAD: http://downloads.sourceforge.net/libircclient/libircclient-1.9.tar.gz
+VERSION: 1.7
+DOWNLOAD: http://downloads.sourceforge.net/libircclient/libircclient-1.7.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 783c48fe9153ed55a5565c818a178d67
+MD5SUM: 968370276f7cf21302f504f9bce1fc99
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libircclient (a small client-server IRC protocol library)
@@ -34090,10 +34101,10 @@ SHORT DESCRIPTION: libofa (Library Open Fingerprint Architecture)
 NAME: libofx
 LOCATION: ./libraries/libofx
 FILES: README libofx-0.9.5-gcc47.patch libofx.SlackBuild libofx.info slack-desc
-VERSION: 0.9.11
-DOWNLOAD: http://downloads.sourceforge.net/libofx/libofx-0.9.11.tar.gz
+VERSION: 0.9.9
+DOWNLOAD: http://downloads.sourceforge.net/libofx/libofx-0.9.9.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: b0b9ed7ea0a94990d760464bebea8666
+MD5SUM: 2ea3adcec51e6dc90555a52a7ab621c9
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libofx (OFX parser and API library)
@@ -35190,10 +35201,10 @@ SHORT DESCRIPTION: libunwind (C programming interface to determine the call-chai
 NAME: libupnp
 LOCATION: ./libraries/libupnp
 FILES: README libupnp.SlackBuild libupnp.info slack-desc
-VERSION: 1.6.22
-DOWNLOAD: http://downloads.sourceforge.net/pupnp/libupnp-1.6.22.tar.bz2
+VERSION: 1.6.17
+DOWNLOAD: http://downloads.sourceforge.net/pupnp/libupnp-1.6.17.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: 530e91e96119ee32a9523a73572b8d8f
+MD5SUM: efbf0d470ce7157bc0e6ca836e246de5
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libupnp (Portable SDK for UPnP Devices)
@@ -35212,10 +35223,10 @@ SHORT DESCRIPTION: liburcu (RCU Library)
 NAME: libuv
 LOCATION: ./libraries/libuv
 FILES: README libuv.SlackBuild libuv.info slack-desc
-VERSION: 1.13.1
-DOWNLOAD: http://dist.libuv.org/dist/v1.13.1/libuv-v1.13.1.tar.gz
+VERSION: 1.13.0
+DOWNLOAD: http://dist.libuv.org/dist/v1.13.0/libuv-v1.13.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 9ab8ef536c014e1e171b67a4d6c28e01
+MD5SUM: bd2b3ed31bf717c7cd5e5da1d248bb99
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libuv (Cross-platform asychronous I/O)
@@ -35520,10 +35531,10 @@ SHORT DESCRIPTION: libxml++ (C++ wrapper for the libxml XML parser library)
 NAME: libxmp
 LOCATION: ./libraries/libxmp
 FILES: README libxmp.SlackBuild libxmp.info slack-desc
-VERSION: 4.4.1
-DOWNLOAD: http://downloads.sourceforge.net/xmp/libxmp-4.4.1.tar.gz
+VERSION: 4.3.8
+DOWNLOAD: http://downloads.sourceforge.net/xmp/libxmp-4.3.8.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 3a2afcbbb720fb2931e79aeb66e724f7
+MD5SUM: 7bfa2c9dc2a0fca91e8500a29e49b734
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: libxmp (The Extended Module Player library)
@@ -35531,10 +35542,10 @@ SHORT DESCRIPTION: libxmp (The Extended Module Player library)
 NAME: libxnvctrl
 LOCATION: ./libraries/libxnvctrl
 FILES: README libxnvctrl.SlackBuild libxnvctrl.info libxnvctrl_so.patch slack-desc
-VERSION: 375.66
-DOWNLOAD: https://download.nvidia.com/XFree86/nvidia-settings/nvidia-settings-375.66.tar.bz2
+VERSION: 375.39
+DOWNLOAD: ftp://download.nvidia.com/XFree86/nvidia-settings/nvidia-settings-375.39.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: eb29b20b91703323a69d08db1be7237d
+MD5SUM: ced26b5504b08abaf4e156740021b2bc
 MD5SUM_x86_64:
 REQUIRES: nvidia-driver
 SHORT DESCRIPTION: libxnvctrl (NVIDIA NV-CONTROL X extension)
@@ -36279,10 +36290,10 @@ SHORT DESCRIPTION: nspluginwrapper (proxy plugin)
 NAME: ntl
 LOCATION: ./libraries/ntl
 FILES: README ntl.SlackBuild ntl.info slack-desc
-VERSION: 10.5.0
-DOWNLOAD: http://www.shoup.net/ntl/ntl-10.5.0.tar.gz
+VERSION: 10.4.0
+DOWNLOAD: http://www.shoup.net/ntl/ntl-10.4.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: c9128bfd37b0cceb1a80e792134f9a79
+MD5SUM: 8827c945e54df5f23b8fe36f754424ee
 MD5SUM_x86_64:
 REQUIRES: gf2x
 SHORT DESCRIPTION: ntl (number theory library)
@@ -36866,8 +36877,8 @@ VERSION: 2017.07.03.00
 DOWNLOAD: UNSUPPORTED
 DOWNLOAD_x86_64: https://github.com/facebook/proxygen/archive/v2017.07.03.00/proxygen-2017.07.03.00.tar.gz https://github.com/google/googletest/archive/release-1.8.0/googletest-release-1.8.0.tar.gz
 MD5SUM:
-MD5SUM_x86_64: 59ee75b378cf0b87bd5ab0a992b3c9d5 16877098823401d1bf2ed7891d7dce36
-REQUIRES: wangle
+MD5SUM_x86_64: 59ee75b378cf0b87bd5ab0a992b3c9d5
+REQUIRES: protobuf
 SHORT DESCRIPTION: proxygen (Facebook's C++ HTTP Libraries)
 
 NAME: psqlodbc
@@ -36961,10 +36972,10 @@ SHORT DESCRIPTION: pyacoustid (Chromaprint acoustic fingerprinting and the Acous
 NAME: pycparser
 LOCATION: ./libraries/pycparser
 FILES: README pycparser.SlackBuild pycparser.info slack-desc
-VERSION: 2.18
-DOWNLOAD: https://pypi.python.org/packages/8c/2d/aad7f16146f4197a11f8e91fb81df177adcc2073d36a17b1491fd09df6ed/pycparser-2.18.tar.gz
+VERSION: 2.17
+DOWNLOAD: https://pypi.python.org/packages/be/64/1bb257ffb17d01f4a38d7ce686809a736837ad4371bcc5c42ba7a715c3ac/pycparser-2.17.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 72370da54358202a60130e223d488136
+MD5SUM: ca98dcb50bc1276f230118f6af5a40c7
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: pycparser (C parser in Python)
@@ -37148,10 +37159,10 @@ SHORT DESCRIPTION: python-evas (one of the Enlightenment DR17 foundation librari
 NAME: python-gnupg
 LOCATION: ./libraries/python-gnupg
 FILES: README python-gnupg.SlackBuild python-gnupg.info slack-desc
-VERSION: 0.4.1
-DOWNLOAD: https://pypi.python.org/packages/fc/f1/df6c06da34939f67ea622e0b31dbc5bdb5121b271ab530d151df59974425/python-gnupg-0.4.1.tar.gz
+VERSION: 0.3.9
+DOWNLOAD: https://pypi.python.org/packages/ec/bc/6e27b54c2fd74f40c0b040693a5d7be20ab4e6e996dc2344cd918e360c16/python-gnupg-0.3.9.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: b5d98344798b3cbb80cdcc1bfd788ea3
+MD5SUM: 426369c30d5693357b12319e454ccde6
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: python-gnupg (A wrapper for the GnuPG)
@@ -37830,10 +37841,10 @@ SHORT DESCRIPTION: suil (Lightweight LV2 UI library)
 NAME: swfdec
 LOCATION: ./libraries/swfdec
 FILES: README slack-desc swfdec.SlackBuild swfdec.info
-VERSION: 0.9.2
-DOWNLOAD: https://swfdec.freedesktop.org/download/swfdec/0.9/swfdec-0.9.2.tar.gz
+VERSION: 0.8.4
+DOWNLOAD: https://swfdec.freedesktop.org/download/swfdec/0.8/swfdec-0.8.4.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 7be5e39236e2d6efa61a18e83e5ab73d
+MD5SUM: aece501d0e73f3e564200a44ec03c385
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: swfdec (decoder/renderer for Macromedia Flash animations)
@@ -37940,10 +37951,10 @@ SHORT DESCRIPTION: tinyxml (A small xml parser)
 NAME: tinyxml2
 LOCATION: ./libraries/tinyxml2
 FILES: README slack-desc tinyxml2.SlackBuild tinyxml2.info
-VERSION: 5.0.1
-DOWNLOAD: https://github.com/leethomason/tinyxml2/archive/5.0.1/tinyxml2-5.0.1.tar.gz
+VERSION: 5.0.0
+DOWNLOAD: https://github.com/leethomason/tinyxml2/archive/5.0.0/tinyxml2-5.0.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: ed8f0bccfd5cfb97d1317235f45935b2
+MD5SUM: 74b4c767c452e0e4155cb6dae8ed7e87
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: tinyxml2 (C++ XML Parser)
@@ -38347,10 +38358,10 @@ SHORT DESCRIPTION: web.py (Web Framework)
 NAME: webkit2gtk
 LOCATION: ./libraries/webkit2gtk
 FILES: README slack-desc webkit2gtk.SlackBuild webkit2gtk.info
-VERSION: 2.16.5
-DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.16.5.tar.xz
+VERSION: 2.16.3
+DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.16.3.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: fce72dc89cd310a663d9eb97133861fe
+MD5SUM: 34dbbcad8a87a929519d93c67edd6d87
 MD5SUM_x86_64:
 REQUIRES: geoclue hyphen libwebp
 SHORT DESCRIPTION: webkit2gtk (Web content rendering)
@@ -39337,10 +39348,10 @@ SHORT DESCRIPTION: cksfv (command line tool for .sfv files)
 NAME: clawsker
 LOCATION: ./misc/clawsker
 FILES: README clawsker.SlackBuild clawsker.info slack-desc
-VERSION: 1.1.0
-DOWNLOAD: http://www.claws-mail.org/tools/clawsker-1.1.0.tar.xz
+VERSION: 0.7.12
+DOWNLOAD: http://www.claws-mail.org/tools/clawsker-0.7.12.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: c06d5e55660eba2b6f8c1be2d5d4c73e
+MD5SUM: 3c28d5e1fc83327b782258b15c05d35f
 MD5SUM_x86_64:
 REQUIRES: perl-gtk2
 SHORT DESCRIPTION: clawsker (applet to edit Claws Mail's hidden preferences)
@@ -40173,10 +40184,10 @@ SHORT DESCRIPTION: moreutils (unix tools)
 NAME: mosquitto
 LOCATION: ./misc/mosquitto
 FILES: README doinst.sh mosquitto.SlackBuild mosquitto.info slack-desc
-VERSION: 1.4.14
-DOWNLOAD: http://mosquitto.org/files/source/mosquitto-1.4.14.tar.gz
+VERSION: 1.4.13
+DOWNLOAD: http://mosquitto.org/files/source/mosquitto-1.4.13.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 6b0966e93f118bc71ad7b61600a6c2d3
+MD5SUM: 016712e1462a4443db04759d1b411690
 MD5SUM_x86_64:
 REQUIRES: c-ares
 SHORT DESCRIPTION: mosquitto (MQTT server)
@@ -40690,10 +40701,10 @@ SHORT DESCRIPTION: toilet (program for creating banners)
 NAME: torrentinfo
 LOCATION: ./misc/torrentinfo
 FILES: README slack-desc torrentinfo.SlackBuild torrentinfo.info
-VERSION: 1.8.6
-DOWNLOAD: https://github.com/Fuuzetsu/torrentinfo/archive/v1.8.6.tar.gz
+VERSION: 1.0.2
+DOWNLOAD: http://vrai.net/files/software_projects/torrentinfo/torrentinfo-1.0.2.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: fbc54b39cc091db1db77f7574a702b3
+MD5SUM: 023c9c3cf7586ef10310b645db2794a5
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: torrentinfo (command-line tool that parses .torrent files)
@@ -40833,10 +40844,10 @@ SHORT DESCRIPTION: xcape (Linux utility to configure modifier keys)
 NAME: xclip
 LOCATION: ./misc/xclip
 FILES: README slack-desc xclip.SlackBuild xclip.info
-VERSION: 0.13
-DOWNLOAD: https://github.com/astrand/xclip/archive/0.13/xclip-0.13.tar.gz
+VERSION: 0.12
+DOWNLOAD: https://downloads.sourceforge.net/xclip/xclip-0.12.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 81e49f56288f299e3389a019f2550ad2
+MD5SUM: f7e19d3e976fecdc1ea36cd39e39900d
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: xclip (command-line interface to the X clipboard)
@@ -41603,11 +41614,11 @@ SHORT DESCRIPTION: filebot (The ultimate TV and Movie Renamer)
 NAME: flashplayer-plugin
 LOCATION: ./multimedia/flashplayer-plugin
 FILES: README doinst.sh flashplayer-plugin.SlackBuild flashplayer-plugin.info slack-desc
-VERSION: 26.0.0.137
-DOWNLOAD: https://fpdownload.adobe.com/get/flashplayer/pdc/26.0.0.137/flash_player_npapi_linux.i386.tar.gz
-DOWNLOAD_x86_64: https://fpdownload.adobe.com/get/flashplayer/pdc/26.0.0.137/flash_player_npapi_linux.x86_64.tar.gz
-MD5SUM: 80bf9fb9ae115b78cd99f8e726ce0fde
-MD5SUM_x86_64: 9667d772701f2ea7d0873a16dc6fba3a
+VERSION: 26.0.0.131
+DOWNLOAD: https://fpdownload.adobe.com/get/flashplayer/pdc/26.0.0.131/flash_player_npapi_linux.i386.tar.gz
+DOWNLOAD_x86_64: https://fpdownload.adobe.com/get/flashplayer/pdc/26.0.0.131/flash_player_npapi_linux.x86_64.tar.gz
+MD5SUM: 4e8732efbfdb68824ea46226e47d0547
+MD5SUM_x86_64: 11cd85d99aff66f343f25c56189b6005
 REQUIRES:
 SHORT DESCRIPTION: flashplayer-plugin (flash plugin for web browsers)
 
@@ -41636,10 +41647,10 @@ SHORT DESCRIPTION: flvtool2 (manipulation tool for flv files)
 NAME: freshplayerplugin
 LOCATION: ./multimedia/freshplayerplugin
 FILES: README freshplayerplugin.SlackBuild freshplayerplugin.info slack-desc
-VERSION: 0.3.7
-DOWNLOAD: https://github.com/i-rinat/freshplayerplugin/archive/v0.3.7/freshplayerplugin-0.3.7.tar.gz
+VERSION: 0.3.6
+DOWNLOAD: https://github.com/i-rinat/freshplayerplugin/archive/v0.3.6.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 9076ce1e61c9ec12234306b62afff9ce
+MD5SUM: 692db06829706f99d21e2b817788f310
 MD5SUM_x86_64:
 REQUIRES: ffmpeg pepperflash-plugin ragel uriparser
 SHORT DESCRIPTION: freshplayerplugin (PPAPI-host NPAPI-plugin adapter)
@@ -42450,11 +42461,11 @@ SHORT DESCRIPTION: opera-developer-ffmpeg-codecs (Extra ffmpeg codec for Opera b
 NAME: opera-ffmpeg-codecs
 LOCATION: ./multimedia/opera-ffmpeg-codecs
 FILES: README opera-ffmpeg-codecs.SlackBuild opera-ffmpeg-codecs.info slack-desc
-VERSION: 59.0.3071.115
+VERSION: 59.0.3071.86
 DOWNLOAD: UNSUPPORTED
-DOWNLOAD_x86_64: https://repo.herecura.be/herecura/x86_64/opera-ffmpeg-codecs-59.0.3071.115-1-x86_64.pkg.tar.xz
+DOWNLOAD_x86_64: https://repo.herecura.be/herecura/x86_64/opera-ffmpeg-codecs-59.0.3071.86-1-x86_64.pkg.tar.xz
 MD5SUM:
-MD5SUM_x86_64: 2463832ab2756ca15842d4c84fb92bfe
+MD5SUM_x86_64: 331b533e28b8ec7d22bb52f5d3022a52
 REQUIRES: opera
 SHORT DESCRIPTION: opera-ffmpeg-codecs (Extra ffmpeg codec for Opera browser)
 
@@ -42472,11 +42483,11 @@ SHORT DESCRIPTION: parole (GStreamer based media player)
 NAME: pepperflash-plugin
 LOCATION: ./multimedia/pepperflash-plugin
 FILES: README pepperflash-plugin.SlackBuild pepperflash-plugin.info slack-desc
-VERSION: 26.0.0.137
-DOWNLOAD: https://fpdownload.adobe.com/pub/flashplayer/pdc/26.0.0.137/flash_player_ppapi_linux.i386.tar.gz
-DOWNLOAD_x86_64: https://fpdownload.adobe.com/pub/flashplayer/pdc/26.0.0.137/flash_player_ppapi_linux.x86_64.tar.gz
-MD5SUM: 7e484ec5abde36ab4db41f2d11f78e73
-MD5SUM_x86_64: c583057ab476e6a57566f064c0beebca
+VERSION: 26.0.0.131
+DOWNLOAD: https://fpdownload.adobe.com/pub/flashplayer/pdc/26.0.0.131/flash_player_ppapi_linux.i386.tar.gz
+DOWNLOAD_x86_64: https://fpdownload.adobe.com/pub/flashplayer/pdc/26.0.0.131/flash_player_ppapi_linux.x86_64.tar.gz
+MD5SUM: 1098c9a299e344c048170b33089b88b4
+MD5SUM_x86_64: abbf65cb5fa90190f54d0b08aa7ab06a
 REQUIRES:
 SHORT DESCRIPTION: pepperflash-plugin (flash PPAPI plugin)
 
@@ -42622,6 +42633,17 @@ MD5SUM: 274efddcf5183a4f5cb193f8c417a45c
 MD5SUM_x86_64:
 REQUIRES: gst0-ffmpeg gst0-plugins-ugly gst0-python lxml pyxdg
 SHORT DESCRIPTION: radiotray (online radio streaming player)
+
+NAME: realplayer
+LOCATION: ./multimedia/realplayer
+FILES: README doinst.sh realplayer.SlackBuild realplayer.info slack-desc
+VERSION: 11.0.2.2315
+DOWNLOAD: http://client-software.real.com/free/unix/RealPlayer11GOLD.deb
+DOWNLOAD_x86_64: UNSUPPORTED
+MD5SUM: 37d027cc0ced04f136765bb728645c77
+MD5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: realplayer (plays mp3, rm, ra, rv, wma, wmv, ogg, aac, and more)
 
 NAME: ripit
 LOCATION: ./multimedia/ripit
@@ -42974,6 +42996,17 @@ MD5SUM: fa690066c543ba9beb8c294466eed4b4
 MD5SUM_x86_64:
 REQUIRES: libunicapgtk
 SHORT DESCRIPTION: ucview (video capture and display program)
+
+NAME: umplayer
+LOCATION: ./multimedia/umplayer
+FILES: README doinst.sh slack-desc umplayer.SlackBuild umplayer.info
+VERSION: 0.97
+DOWNLOAD: http://sl1200.org/~erik/files/umplayer-0.97.tar.bz2
+DOWNLOAD_x86_64:
+MD5SUM: 281208e084d900b9d1ff8a9d584832f8
+MD5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: umplayer (Universal Media Player)
 
 NAME: vcdimager
 LOCATION: ./multimedia/vcdimager
@@ -43417,11 +43450,11 @@ SHORT DESCRIPTION: LOIC (open source network attack application)
 
 NAME: MEGAsync
 LOCATION: ./network/MEGAsync
-FILES: MEGAsync.SlackBuild MEGAsync.info README doinst.sh slack-desc
-VERSION: 3.1.4.0
-DOWNLOAD: https://github.com/meganz/MEGAsync/archive/v3.1.4.0_Linux/MEGAsync-3.1.4.0_Linux.tar.gz https://github.com/meganz/sdk/archive/v3.1.4/sdk-3.1.4.tar.gz
+FILES: MEGAsync.SlackBuild MEGAsync.info README slack-desc
+VERSION: 3.0.1.0
+DOWNLOAD: https://github.com/meganz/MEGAsync/archive/v3.0.1.0_Linux/MEGAsync-3.0.1.0_Linux.tar.gz https://github.com/meganz/sdk/archive/v3.0.0/sdk-3.0.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 40993325c066fac50d5e925d935770e9 e33e7c6776493d01df679c4c1770486c
+MD5SUM: cbf3a4df17ee7d8ddc354a6854b5a966 0765cc618b80d5f7982cb8252150d863
 MD5SUM_x86_64:
 REQUIRES: libuv libsodium cryptopp FreeImage c-ares
 SHORT DESCRIPTION: MEGAsync (mega cloud storage service)
@@ -43957,10 +43990,10 @@ SHORT DESCRIPTION: Line up the first '|' above the ':' following the base packag
 NAME: bip
 LOCATION: ./network/bip
 FILES: README bip.SlackBuild bip.info slack-desc
-VERSION: 0.9.0-rc.1
-DOWNLOAD: https://projects.duckcorp.org/attachments/download/79/bip-0.9.0-rc.1.tar.gz
+VERSION: 0.8.9
+DOWNLOAD: https://projects.duckcorp.org/attachments/download/61/bip-0.8.9.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 8c7079d51f13ce4799c750f89ebc1b41
+MD5SUM: 04158ad020db221ed87cdc03660ef6c9
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: bip (irc proxy server with SSL support)
@@ -45475,24 +45508,13 @@ SHORT DESCRIPTION: hiawatha (A secure and advanced webserver)
 NAME: hipchat
 LOCATION: ./network/hipchat
 FILES: README doinst.sh hipchat.SlackBuild hipchat.info slack-desc
-VERSION: 4.29.4.1662
-DOWNLOAD: UNSUPPORTED
-DOWNLOAD_x86_64: https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client/pool/HipChat4-4.29.4.1662-Linux.deb
-MD5SUM:
-MD5SUM_x86_64: 5e6731ba4a47f5c7281c18d9baf09eaa
-REQUIRES:
-SHORT DESCRIPTION: hipchat (private group messaging)
-
-NAME: hipchat2
-LOCATION: ./network/hipchat2
-FILES: README doinst.sh hipchat2.SlackBuild hipchat2.info slack-desc
 VERSION: 2.2.1388
 DOWNLOAD: http://downloads.hipchat.com/linux/arch/i686/hipchat-2.2.1388-i686.pkg.tar.xz
 DOWNLOAD_x86_64: http://downloads.hipchat.com/linux/arch/x86_64/hipchat-2.2.1388-x86_64.pkg.tar.xz
 MD5SUM: f7fdc4df78071ecc8900a6f7109facd8
 MD5SUM_x86_64: b3c605ed18425ea680903d33a00ed0da
 REQUIRES:
-SHORT DESCRIPTION: hipchat2 (old version of HipChat for 32 bit users)
+SHORT DESCRIPTION: hipchat (private group messaging)
 
 NAME: hostapd
 LOCATION: ./network/hostapd
@@ -46421,10 +46443,10 @@ SHORT DESCRIPTION: metasploit (https://www.metasploit.com/)
 NAME: mew
 LOCATION: ./network/mew
 FILES: README doinst.sh mew.SlackBuild mew.info slack-desc
-VERSION: 6.7
-DOWNLOAD: http://www.mew.org/Release/mew-6.7.tar.gz
+VERSION: 6.5
+DOWNLOAD: http://www.mew.org/Release/mew-6.5.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: feb81a0ff420f00c5bc5b5287721991a
+MD5SUM: 5aa0071696fd234f8853110b348c0357
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: mew (A mail reader for Emacs)
@@ -46993,10 +47015,10 @@ SHORT DESCRIPTION: nghttp2 (HTTP/2 implementation)
 NAME: nginx
 LOCATION: ./network/nginx
 FILES: README doinst.sh nginx.SlackBuild nginx.info nginx.logrotate rc.nginx slack-desc
-VERSION: 1.12.1
-DOWNLOAD: http://nginx.org/download/nginx-1.12.1.tar.gz
+VERSION: 1.10.3
+DOWNLOAD: http://nginx.org/download/nginx-1.10.3.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: a307e74aca95403e5ee00f153807ce58
+MD5SUM: 204a20cb4f0b0c9db746c630d89ff4ea
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: nginx (http/imap/pop3 proxy)
@@ -47400,11 +47422,11 @@ SHORT DESCRIPTION: openvswitch-utils (a multilayer software switch)
 NAME: opera
 LOCATION: ./network/opera
 FILES: README doinst.sh opera.SlackBuild opera.info slack-desc
-VERSION: 46.0.2597.46
+VERSION: 46.0.2597.32
 DOWNLOAD: UNSUPPORTED
-DOWNLOAD_x86_64: http://download3.operacdn.com/pub/opera/desktop/46.0.2597.46/linux/opera-stable_46.0.2597.46_amd64.deb
+DOWNLOAD_x86_64: http://download3.operacdn.com/pub/opera/desktop/46.0.2597.32/linux/opera-stable_46.0.2597.32_amd64.deb
 MD5SUM:
-MD5SUM_x86_64: 2420cba3957732d81f59d37437b74e16
+MD5SUM_x86_64: 8c76895f3aeea8d5ff2b9f9664b99133
 REQUIRES:
 SHORT DESCRIPTION: opera (Fast and secure web browser)
 
@@ -47499,11 +47521,11 @@ SHORT DESCRIPTION: packit (network injection and capture)
 NAME: palemoon
 LOCATION: ./network/palemoon
 FILES: README TODO doinst.sh palemoon.SlackBuild palemoon.desktop palemoon.info slack-desc
-VERSION: 27.4.0
-DOWNLOAD: http://linux.palemoon.org/datastore/release/palemoon-27.4.0.en-US.linux-i686.tar.bz2
-DOWNLOAD_x86_64: http://linux.palemoon.org/datastore/release/palemoon-27.4.0.en-US.linux-x86_64.tar.bz2
-MD5SUM: bce9550492ff9af42b0cc84f52a7bb38
-MD5SUM_x86_64: 66d193ee1bc306d3e25ae31fc3eaccaa
+VERSION: 27.3.0
+DOWNLOAD: http://linux.palemoon.org/datastore/release/palemoon-27.3.0.en-US.linux-i686.tar.bz2
+DOWNLOAD_x86_64: http://linux.palemoon.org/datastore/release/palemoon-27.3.0.en-US.linux-x86_64.tar.bz2
+MD5SUM: 7276e616ebff5095c2166ea44ebd4c1c
+MD5SUM_x86_64: d31119b52e29b3021f9353353b42906e
 REQUIRES:
 SHORT DESCRIPTION: palemoon (Web browser)
 
@@ -48082,10 +48104,10 @@ SHORT DESCRIPTION: purple-facebook (Facebook Chat for Pidgin)
 NAME: putty
 LOCATION: ./network/putty
 FILES: README doinst.sh putty.SlackBuild putty.desktop putty.info putty.png slack-desc
-VERSION: 0.70
-DOWNLOAD: https://the.earth.li/~sgtatham/putty/latest/putty-0.70.tar.gz
+VERSION: 0.69
+DOWNLOAD: https://the.earth.li/~sgtatham/putty/latest/putty-0.69.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 79ea4d468c5e43740d5c8d94f12af19c
+MD5SUM: 75fde9a3b3694e669d21a19b60fc9166
 MD5SUM_x86_64:
 REQUIRES: %README%
 SHORT DESCRIPTION: putty (A Free Telnet/SSH Client)
@@ -48257,11 +48279,11 @@ SHORT DESCRIPTION: r2e (rss to email gateway)
 
 NAME: r8168
 LOCATION: ./network/r8168
-FILES: README doinst.sh r8168-linux-4.11.patch r8168.SlackBuild r8168.info slack-desc
-VERSION: 8.044.02
-DOWNLOAD: https://github.com/mtorromeo/r8168/archive/8.044.02/r8168-8.044.02.tar.gz
+FILES: README doinst.sh r8168.SlackBuild r8168.info slack-desc
+VERSION: 8.043.02
+DOWNLOAD: https://github.com/mtorromeo/r8168/archive/8.043.02/r8168-8.043.02.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: ff7cb76de167608834f1bde66da882ff
+MD5SUM: 99d19046aa313ac540906dc5289514e6
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: r8168 (Linux device driver for Realtek Ethernet controllers)
@@ -48731,11 +48753,11 @@ SHORT DESCRIPTION: slack (A messaging app for teams.)
 NAME: slimjet
 LOCATION: ./network/slimjet
 FILES: README doinst.sh icons slack-desc slimjet.SlackBuild slimjet.desktop slimjet.info
-VERSION: 15.0.2.0
+VERSION: 14.0.14.0
 DOWNLOAD: https://www.slimjetbrowser.com/release/slimjet_i386.tar.xz
 DOWNLOAD_x86_64: https://www.slimjetbrowser.com/release/slimjet_amd64.tar.xz
-MD5SUM: 2c8d79173a0073645ada6b3573eabf77
-MD5SUM_x86_64: d23eb6299feacb0798e766f21b502662
+MD5SUM: a7d0b12c92e55ae77103859afe358839
+MD5SUM_x86_64: d8ed92ffbe0406e710ea068a225f3d63
 REQUIRES:
 SHORT DESCRIPTION: slimjet (Chromium based web browser)
 
@@ -49963,11 +49985,11 @@ SHORT DESCRIPTION: vimb (keyboard-driven, vim-like web browser)
 NAME: vivaldi
 LOCATION: ./network/vivaldi
 FILES: README doinst.sh slack-desc vivaldi.SlackBuild vivaldi.info
-VERSION: 1.10.867.48
+VERSION: 1.10.867.46
 DOWNLOAD: UNSUPPORTED
-DOWNLOAD_x86_64: http://repo.vivaldi.com/archive/deb/pool/main/vivaldi-stable_1.10.867.48-1_amd64.deb
+DOWNLOAD_x86_64: http://repo.vivaldi.com/archive/deb/pool/main/vivaldi-stable_1.10.867.46-1_amd64.deb
 MD5SUM:
-MD5SUM_x86_64: f206237bfea301c9ac8f1fab56c3217d
+MD5SUM_x86_64: a0b97a51f44688830400c8b0593691fc
 REQUIRES:
 SHORT DESCRIPTION: vivaldi (web browser)
 
@@ -50403,10 +50425,10 @@ SHORT DESCRIPTION: you-get (video downloader)
 NAME: youtube-dl
 LOCATION: ./network/youtube-dl
 FILES: README doinst.sh setup.patch slack-desc youtube-dl.1 youtube-dl.SlackBuild youtube-dl.info
-VERSION: 2017.07.09
-DOWNLOAD: https://github.com/rg3/youtube-dl/archive/2017.07.09/youtube_dl-2017.07.09.tar.gz
+VERSION: 2017.06.25
+DOWNLOAD: https://github.com/rg3/youtube-dl/archive/2017.06.25/youtube_dl-2017.06.25.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: a86f1b98eb75b57f56afe7457cf9d8e8
+MD5SUM: a552dba58c128dd9586b4cd1a3a98406
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: youtube-dl (YouTube video download utility)
@@ -50568,11 +50590,11 @@ SHORT DESCRIPTION: LibreOffice (LibreOffice Productivity Suite)
 NAME: MasterPDFEditor
 LOCATION: ./office/MasterPDFEditor
 FILES: MasterPDFEditor.SlackBuild MasterPDFEditor.desktop MasterPDFEditor.info README doinst.sh slack-desc
-VERSION: 4.2.63
-DOWNLOAD: http://get.code-industry.net/public/master-pdf-editor-4.2.63_i386.tar.gz
-DOWNLOAD_x86_64: http://get.code-industry.net/public/master-pdf-editor-4.2.63_qt4.amd64.tar.gz
-MD5SUM: 7341a79f7d6070203469a49eb758a9f6
-MD5SUM_x86_64: fee171bdda05628ef3db54209fbaafce
+VERSION: 4.2.30
+DOWNLOAD: http://get.code-industry.net/public/master-pdf-editor-4.2.30_i386.tar.gz
+DOWNLOAD_x86_64: http://get.code-industry.net/public/master-pdf-editor-4.2.30_qt4.amd64.tar.gz
+MD5SUM: 38b325d0706944698640dda9a0b82690
+MD5SUM_x86_64: 89075b862b0a07d1dad742bc51a0f07b
 REQUIRES:
 SHORT DESCRIPTION: MasterPDFEditor (PDF Editor)
 
@@ -50810,12 +50832,12 @@ SHORT DESCRIPTION: calcurse (text-based calender and todo manager)
 NAME: calibre
 LOCATION: ./office/calibre
 FILES: README calibre.SlackBuild calibre.info doinst.sh patches slack-desc
-VERSION: 3.3.0
-DOWNLOAD: https://download.calibre-ebook.com/3.3.0/calibre-3.3.0.tar.xz
+VERSION: 2.84.0
+DOWNLOAD: https://download.calibre-ebook.com/2.84.0/calibre-2.84.0.tar.xz
 DOWNLOAD_x86_64:
-MD5SUM: 789b9d85435197ff578550538a537953
+MD5SUM: 95ae64ef5838668e93b2f2e566fcd2ef
 MD5SUM_x86_64:
-REQUIRES: cssutils dnspython lxml mechanize podofo python-dateutil netifaces psutil cssselect apsw optipng PyQt5 Pygments msgpack-python regex
+REQUIRES: cssutils dnspython lxml mechanize podofo python-dateutil netifaces psutil cssselect apsw optipng PyQt5 Pygments
 SHORT DESCRIPTION: calibre (Ebook library manager)
 
 NAME: catdoc
@@ -51084,11 +51106,11 @@ SHORT DESCRIPTION: full-pack (A set of dictionaries for kbgoffice)
 
 NAME: ganttproject
 LOCATION: ./office/ganttproject
-FILES: README biz.ganttproject.core.patch biz.ganttproject.impex.ical.patch biz.ganttproject.impex.msproject2.patch build.xml.patch doinst.sh ganttproject.SlackBuild ganttproject.info org.ganttproject.chart.pert.patch org.ganttproject.impex.htmlpdf.patch slack-desc
-VERSION: 2.8.5
-DOWNLOAD: https://github.com/bardsoftware/ganttproject/archive/ganttproject-2.8.5/ganttproject-ganttproject-2.8.5.tar.gz
+FILES: README biz.ganttproject.core.patch biz.ganttproject.impex.msproject2.patch build.xml.patch doinst.sh ganttproject.SlackBuild ganttproject.info org.ganttproject.chart.pert.patch org.ganttproject.impex.htmlpdf.patch slack-desc
+VERSION: 2.8.4
+DOWNLOAD: https://github.com/bardsoftware/ganttproject/archive/ganttproject-2.8.4/ganttproject-ganttproject-2.8.4.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 1761fd1f97b17de4ff3e05e08e0b4ab7
+MD5SUM: 8aa4670dbdcaeae8cb4e2e7e5a74b28c
 MD5SUM_x86_64:
 REQUIRES: apache-ant jdk
 SHORT DESCRIPTION: ganttproject (free tool for project scheduling and management)
@@ -51228,10 +51250,10 @@ SHORT DESCRIPTION: hevea (LaTeX to HTML translator)
 NAME: homebank
 LOCATION: ./office/homebank
 FILES: README doinst.sh homebank.SlackBuild homebank.info slack-desc
-VERSION: 5.1.5
-DOWNLOAD: http://homebank.free.fr/public/homebank-5.1.5.tar.gz
+VERSION: 5.0.2
+DOWNLOAD: http://homebank.free.fr/public/homebank-5.0.2.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 5478428d64085805343eef092dd2c357
+MD5SUM: 1f96fa7e6ba8f5d172e1e8cd4a2ab66d
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: homebank (Free easy personal accounting for all!)
@@ -51668,10 +51690,10 @@ SHORT DESCRIPTION: multivalent-tool-pdf (PDF tools)
 NAME: mupdf
 LOCATION: ./office/mupdf
 FILES: README mupdf.SlackBuild mupdf.desktop mupdf.info mupdf.pc mupdf.png slack-desc
-VERSION: 1.11
-DOWNLOAD: https://www.mupdf.com/downloads/archive/mupdf-1.11-source.tar.gz
+VERSION: 1.10a
+DOWNLOAD: https://www.mupdf.com/downloads/archive/mupdf-1.10a-source.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: ab9a6629f572225e803c4cf426bdb09c
+MD5SUM: f80fbba2524d1d52f6ed09237d382411
 MD5SUM_x86_64:
 REQUIRES: jbig2dec
 SHORT DESCRIPTION: mupdf (a lightweight PDF, CBZ, and XPS viewer and toolkit)
@@ -51734,10 +51756,10 @@ SHORT DESCRIPTION: mythes-id (Indonesian Thesaurus for LibreOffice/Apache OpenOf
 NAME: notmuch
 LOCATION: ./office/notmuch
 FILES: README doinst.sh notmuch.SlackBuild notmuch.info slack-desc
-VERSION: 0.24.2
-DOWNLOAD: https://notmuchmail.org/releases/notmuch-0.24.2.tar.gz
+VERSION: 0.24.1
+DOWNLOAD: https://notmuchmail.org/releases/notmuch-0.24.1.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: f3373c838f7ad998e3c6dae7f780e9e5
+MD5SUM: 2fdf7e64d4b933370fc1ff6905448dbc
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: notmuch (fast mail indexer for maildir)
@@ -51763,17 +51785,6 @@ MD5SUM: 8154dc7f2909dad6939d209695e62379
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: odt2txt (simple converter from OpenDocument Text to plain text)
-
-NAME: onlyoffice-desktopeditors
-LOCATION: ./office/onlyoffice-desktopeditors
-FILES: README desktopeditors desktopeditors.desktop doinst.sh onlyoffice-desktopeditors.SlackBuild onlyoffice-desktopeditors.info slack-desc
-VERSION: 4.4.1.338
-DOWNLOAD: UNSUPPORTED
-DOWNLOAD_x86_64: http://downloads.sourceforge.net/slackbuildsdirectlinks/onlyoffice-desktopeditors-x64-4.4.1.338.tar.gz
-MD5SUM:
-MD5SUM_x86_64: a0a23ea3b475a7680b0d7638eba8bc54
-REQUIRES:
-SHORT DESCRIPTION: onlyoffice-desktopeditors (office suite)
 
 NAME: openoffice-langpack
 LOCATION: ./office/openoffice-langpack
@@ -52295,10 +52306,10 @@ SHORT DESCRIPTION: texworks (A TeX IDE)
 NAME: timetrap
 LOCATION: ./office/timetrap
 FILES: README slack-desc timetrap.SlackBuild timetrap.info
-VERSION: 1.14.2
-DOWNLOAD: http://rubygems.org/downloads/timetrap-1.14.2.gem
+VERSION: 1.14.1
+DOWNLOAD: http://rubygems.org/downloads/timetrap-1.14.1.gem
 DOWNLOAD_x86_64:
-MD5SUM: 821c6d52980b9fad592a44559e82cb93
+MD5SUM: c53c531c978f9089130877a00c9f46d1
 MD5SUM_x86_64:
 REQUIRES: sequel sqlite3 chronic
 SHORT DESCRIPTION: timetrap (CLI time tracker)
@@ -52361,10 +52372,10 @@ SHORT DESCRIPTION: trelby (A screenwriting program)
 NAME: tudu
 LOCATION: ./office/tudu
 FILES: README slack-desc tudu.SlackBuild tudu.info
-VERSION: 0.10.2
-DOWNLOAD: http://code.meskio.net/tudu/tudu-0.10.2.tar.gz
+VERSION: 0.10
+DOWNLOAD: http://code.meskio.net/tudu/tudu-0.10.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 8c2573d7d04e41b78dde1e50049feaf8
+MD5SUM: 4c140d25bf30da1ef5862c14bdefe9cf
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: tudu (todo list program)
@@ -52525,11 +52536,11 @@ SHORT DESCRIPTION: xtrkcad (Model RR Track Planner)
 
 NAME: zathura
 LOCATION: ./office/zathura
-FILES: README dlopen_hack.diff doinst.sh man slack-desc zathura.SlackBuild zathura.info zathura.png
+FILES: README dlopen_hack.diff doinst.sh slack-desc zathura.SlackBuild zathura.info zathura.png
 VERSION: 0.3.7
-DOWNLOAD: https://github.com/pwmt/zathura/archive/0.3.7/zathura-0.3.7.tar.gz https://github.com/pwmt/zathura-pdf-poppler/archive/0.2.7/zathura-pdf-poppler-0.2.7.tar.gz
+DOWNLOAD: https://www.pwmt.org/projects/zathura/download/zathura-0.3.7.tar.gz https://www.pwmt.org/projects/zathura-pdf-poppler/download/zathura-pdf-poppler-0.2.7.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 41ef7c51a4a74e3023a2e59b21c9dc88 536153f318c2a394b6160732365778e8
+MD5SUM: b2c9e23e9f494e1ced5069f850dba673 6b2a4f71641b377730951be27ff176cf
 MD5SUM_x86_64:
 REQUIRES: girara
 SHORT DESCRIPTION: zathura (a PDF viewer focusing on keyboard interaction)
@@ -52538,9 +52549,9 @@ NAME: zathura-cb
 LOCATION: ./office/zathura-cb
 FILES: README slack-desc zathura-cb.SlackBuild zathura-cb.info
 VERSION: 0.1.6
-DOWNLOAD: https://github.com/pwmt/zathura-cb/archive/0.1.6/zathura-cb-0.1.6.tar.gz
+DOWNLOAD: https://www.pwmt.org/projects/zathura/plugins/download/zathura-cb-0.1.6.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 23a5e40754ef9b2d0ce22c71dc717335
+MD5SUM: 8b5c9ec075d78bb8b58f22fffdb4f9c3
 MD5SUM_x86_64:
 REQUIRES: zathura
 SHORT DESCRIPTION: zathura-cb (comic book plugin for zathura)
@@ -52549,9 +52560,9 @@ NAME: zathura-djvu
 LOCATION: ./office/zathura-djvu
 FILES: README doinst.sh slack-desc zathura-djvu.SlackBuild zathura-djvu.info
 VERSION: 0.2.6
-DOWNLOAD: https://github.com/pwmt/zathura-djvu/archive/0.2.6/zathura-djvu-0.2.6.tar.gz
+DOWNLOAD: https://www.pwmt.org/projects/zathura/plugins/download/zathura-djvu-0.2.6.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 51a28cd5e4b5cd6f2cbccb6ace8cd80c
+MD5SUM: 956f9bbacf64f78784de325bfd1a33d8
 MD5SUM_x86_64:
 REQUIRES: zathura
 SHORT DESCRIPTION: zathura-djvu (zathura support for DjVu format documents)
@@ -52560,9 +52571,9 @@ NAME: zathura-pdf-mupdf
 LOCATION: ./office/zathura-pdf-mupdf
 FILES: README doinst.sh mupdf19.diff slack-desc upstream.README zathura-pdf-mupdf.SlackBuild zathura-pdf-mupdf.info
 VERSION: 0.3.1
-DOWNLOAD: https://github.com/pwmt/zathura-pdf-mupdf/archive/0.3.1/zathura-pdf-mupdf-0.3.1.tar.gz
+DOWNLOAD: https://www.pwmt.org/projects/zathura/plugins/download/zathura-pdf-mupdf-0.3.1.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: d4a6f16b2df87898200cdfbd640267f6
+MD5SUM: 5a98b367b8f4a5f33d8005f9130d88e9
 MD5SUM_x86_64:
 REQUIRES: mupdf zathura
 SHORT DESCRIPTION: zathura-pdf-mupdf (zathura support for mupdf backend)
@@ -52571,9 +52582,9 @@ NAME: zathura-ps
 LOCATION: ./office/zathura-ps
 FILES: README doinst.sh slack-desc zathura-ps.SlackBuild zathura-ps.info
 VERSION: 0.2.4
-DOWNLOAD: https://github.com/pwmt/zathura-ps/archive/0.2.4/zathura-ps-0.2.4.tar.gz
+DOWNLOAD: https://pwmt.org/projects/zathura/plugins/download/zathura-ps-0.2.4.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 754eb4fb0fd6009d9f0dc4ffd52f55d8
+MD5SUM: 553330eae86da48c0231f348181b9a82
 MD5SUM_x86_64:
 REQUIRES: zathura
 SHORT DESCRIPTION: zathura-ps (zathura plugin, provides PostScript support)
@@ -54880,10 +54891,10 @@ SHORT DESCRIPTION: perl-Module-Versions-Report (report versions of all modules i
 NAME: perl-Mojolicious
 LOCATION: ./perl/perl-Mojolicious
 FILES: README perl-Mojolicious.SlackBuild perl-Mojolicious.info slack-desc
-VERSION: 7.36
-DOWNLOAD: https://cpan.metacpan.org/authors/id/S/SR/SRI/Mojolicious-7.36.tar.gz
+VERSION: 7.35
+DOWNLOAD: https://cpan.metacpan.org/authors/id/S/SR/SRI/Mojolicious-7.35.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 331ec00fa9514f949d84bd2992fd0429
+MD5SUM: 37854b220ec81eab6155eb9adf660928
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: perl-Mojolicious (next-generation web framework for Perl)
@@ -55529,10 +55540,10 @@ SHORT DESCRIPTION: perl-Role-Tiny (role composition tool)
 NAME: perl-SDL
 LOCATION: ./perl/perl-SDL
 FILES: README perl-SDL.SlackBuild perl-SDL.info slack-desc
-VERSION: 2.546
-DOWNLOAD: https://cpan.metacpan.org/authors/id/F/FR/FROGGS/SDL-2.546.tar.gz
+VERSION: 2.540
+DOWNLOAD: http://pkgs.fedoraproject.org/lookaside/extras/perl-SDL/SDL-2.540.tar.gz/1a5d7849cbdfde4982b28458e38ab172/SDL-2.540.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: a93283d0fff67bdec5ff4bb8c1d30a09
+MD5SUM: 1a5d7849cbdfde4982b28458e38ab172
 MD5SUM_x86_64:
 REQUIRES: perl-Alien-SDL perl-Tie-Simple perl-Test-Most SDL_gfx SDL_Pango
 SHORT DESCRIPTION: perl-SDL (Simple DirectMedia Library Bindings for Perl)
@@ -56860,10 +56871,10 @@ SHORT DESCRIPTION: perl-file-path-expand (expand filenames)
 NAME: perl-glib
 LOCATION: ./perl/perl-glib
 FILES: README perl-glib.SlackBuild perl-glib.info slack-desc
-VERSION: 1.326
-DOWNLOAD: https://cpan.metacpan.org/authors/id/X/XA/XAOC/Glib-1.326.tar.gz
+VERSION: 1.325
+DOWNLOAD: https://cpan.metacpan.org/authors/id/X/XA/XAOC/Glib-1.325.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: ce38d8b009a1201320eff45c9a4dbd21
+MD5SUM: c10d50821ea475d60fec380c835e539c
 MD5SUM_x86_64:
 REQUIRES: perl-extutils-depends perl-extutils-pkgconfig
 SHORT DESCRIPTION: perl-glib (perl module)
@@ -57718,10 +57729,10 @@ SHORT DESCRIPTION: PyDispatcher (Mechanism for creating event models)
 NAME: PyGithub
 LOCATION: ./python/PyGithub
 FILES: PyGithub.SlackBuild PyGithub.info README slack-desc
-VERSION: 1.35
-DOWNLOAD: https://pypi.python.org/packages/ae/d6/e44d5c938bc0fde63e3ee9b3209bc9f2c30c86f211664f333f98c59d36f7/PyGithub-1.35.tar.gz
+VERSION: 1.33
+DOWNLOAD: https://pypi.python.org/packages/cb/32/556d2bfd99b5242773097cabf95c8b2ce422aeb10126849c8afdcd9ebcea/PyGithub-1.33.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: c60115325245e78e1c69e1a7b8eeb596
+MD5SUM: 57e46bcc73c58534b55195526a22dcbc
 MD5SUM_x86_64:
 REQUIRES: pyjwt
 SHORT DESCRIPTION: PyGithub (Library to use Github API v3)
@@ -57905,10 +57916,10 @@ SHORT DESCRIPTION: XlsxWriter (Python module for writing Excel 2007+ XLSX files)
 NAME: affine
 LOCATION: ./python/affine
 FILES: README affine.SlackBuild affine.info slack-desc
-VERSION: 2.1.0
-DOWNLOAD: https://github.com/sgillies/affine/archive/2.1.0/affine-2.1.0.tar.gz
+VERSION: 2.0.0
+DOWNLOAD: https://github.com/sgillies/affine/archive/2.0.0/affine-2.0.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: a5b0db37f34168120e63ffceddaf6333
+MD5SUM: 508d2f0fa8f5df90e7a5853d94cd1653
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: affine (matrices describing affine transformation of the plane)
@@ -58114,10 +58125,10 @@ SHORT DESCRIPTION: bitarray (Efficient arrays of booleans -- C extension)
 NAME: bleach
 LOCATION: ./python/bleach
 FILES: README bleach.SlackBuild bleach.info slack-desc
-VERSION: 2.0
-DOWNLOAD: https://pypi.python.org/packages/99/00/25a8fce4de102bf6e3cc76bc4ea60685b2fee33bde1b34830c70cacc26a7/bleach-2.0.tar.gz
+VERSION: 1.5.0
+DOWNLOAD: https://pypi.python.org/packages/99/00/25a8fce4de102bf6e3cc76bc4ea60685b2fee33bde1b34830c70cacc26a7/bleach-1.5.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: d9981c1dbfbf81a475d302b9c8071593
+MD5SUM: b663300efdf421b3b727b19d7be9c7e7
 MD5SUM_x86_64:
 REQUIRES: html5lib six
 SHORT DESCRIPTION: bleach (whitelist-based HTML-sanitizing tool)
@@ -59885,10 +59896,10 @@ SHORT DESCRIPTION: polib (pot, po, and mo file manipulation library)
 NAME: portend
 LOCATION: ./python/portend
 FILES: README portend.SlackBuild portend.info slack-desc
-VERSION: 2.1.2
-DOWNLOAD: https://pypi.python.org/packages/0a/be/db3acda03e226ae9d53a7221ffa110eac1e5ca8024dda3a2683960d9aefd/portend-2.1.2.tar.gz
+VERSION: 2.1
+DOWNLOAD: https://pypi.python.org/packages/ea/82/195aacc36d26a3ad1bd1ba4045d2e61c0a73a19cf02ed94f4ec233ae308b/portend-2.1.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: e0d1469994a1b12fdb4104e14996ccd6
+MD5SUM: f73f039a26c65a746026dfbefa953359
 MD5SUM_x86_64:
 REQUIRES: tempora
 SHORT DESCRIPTION: portend (TCP ports monitor)
@@ -60721,10 +60732,10 @@ SHORT DESCRIPTION: pytables (Hierarchical datasets in Python)
 NAME: pytest
 LOCATION: ./python/pytest
 FILES: README doinst.sh pytest.SlackBuild pytest.info slack-desc
-VERSION: 3.1.3
-DOWNLOAD: https://pypi.python.org/packages/15/c8/6b42bf58f91d72416806472512bb67dabc6edb5a6a8ace29853ff940400a/pytest-3.1.3.tar.gz
+VERSION: 3.1.2
+DOWNLOAD: https://pypi.python.org/packages/72/2b/2d3155e01f45a5a04427857352ee88220ee39550b2bc078f9db3190aea46/pytest-3.1.2.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 35356e6e31cbd8318e8b2a8340a90b72
+MD5SUM: c4d179f89043cc925e1c169d03128e02
 MD5SUM_x86_64:
 REQUIRES: setuptools-scm py
 SHORT DESCRIPTION: pytest (simple powerful testing with Python)
@@ -60974,10 +60985,10 @@ SHORT DESCRIPTION: python-daemon (python library to create pythonic daemon proce
 NAME: python-dateutil
 LOCATION: ./python/python-dateutil
 FILES: README python-dateutil.SlackBuild python-dateutil.info slack-desc
-VERSION: 2.6.1
-DOWNLOAD: https://pypi.python.org/packages/54/bb/f1db86504f7a49e1d9b9301531181b00a1c7325dc85a29160ee3eaa73a54/python-dateutil-2.6.1.tar.gz
+VERSION: 2.6.0
+DOWNLOAD: https://pypi.python.org/packages/51/fc/39a3fbde6864942e8bb24c93663734b74e281b984d1b8c4f95d64b0c21f6/python-dateutil-2.6.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: db38f6b4511cefd76014745bb0cc45a4
+MD5SUM: 6e38f91e8c94c15a79ce22768dfeca87
 MD5SUM_x86_64:
 REQUIRES: six
 SHORT DESCRIPTION: python-dateutil (extensions to the standard datetime module)
@@ -61788,10 +61799,10 @@ SHORT DESCRIPTION: python-requestbuilder (Command line-driven HTTP request build
 NAME: python-requests
 LOCATION: ./python/python-requests
 FILES: README python-requests.SlackBuild python-requests.info slack-desc
-VERSION: 2.18.1
-DOWNLOAD: https://github.com/kennethreitz/requests/archive/v2.18.1/requests-2.18.1.tar.gz
+VERSION: 2.17.3
+DOWNLOAD: https://github.com/kennethreitz/requests/archive/v2.17.3/requests-2.17.3.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: a3d6f123e328ab97131f8232a17eebdc
+MD5SUM: d4f065611e22be52ca08e5dfac471032
 MD5SUM_x86_64:
 REQUIRES: python-certifi python-chardet idna python-urllib3
 SHORT DESCRIPTION: python-requests (Requests: HTTP for Humans)
@@ -62272,10 +62283,10 @@ SHORT DESCRIPTION: python3-augeas (Python 3 bindings for augeas)
 NAME: python3-dateutil
 LOCATION: ./python/python3-dateutil
 FILES: README python3-dateutil.SlackBuild python3-dateutil.info slack-desc
-VERSION: 2.6.1
-DOWNLOAD: https://files.pythonhosted.org/packages/source/p/python-dateutil/python-dateutil-2.6.1.tar.gz
+VERSION: 2.6.0
+DOWNLOAD: https://files.pythonhosted.org/packages/source/p/python-dateutil/python-dateutil-2.6.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: db38f6b4511cefd76014745bb0cc45a4
+MD5SUM: 6e38f91e8c94c15a79ce22768dfeca87
 MD5SUM_x86_64:
 REQUIRES: python3-six
 SHORT DESCRIPTION: python3-dateutil (extensions to the standard datetime module)
@@ -64219,10 +64230,10 @@ SHORT DESCRIPTION: rubygems-update (rubygems updates)
 NAME: sequel
 LOCATION: ./ruby/sequel
 FILES: README sequel.SlackBuild sequel.info slack-desc
-VERSION: 4.48.0
-DOWNLOAD: http://rubygems.org/downloads/sequel-4.48.0.gem
+VERSION: 4.45.0
+DOWNLOAD: http://rubygems.org/downloads/sequel-4.45.0.gem
 DOWNLOAD_x86_64:
-MD5SUM: 0826fae41cb8f61fd7bed51cc1658a60
+MD5SUM: 8261bffb06ffcbece3b846325eb565b0
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: sequel (Database toolkit for Ruby)
@@ -64824,10 +64835,10 @@ SHORT DESCRIPTION: atool (archive tools)
 NAME: atop
 LOCATION: ./system/atop
 FILES: README README.SLACKWARE atop.SlackBuild atop.info doinst.sh psacct.logrotate slack-desc
-VERSION: 2.3.0
-DOWNLOAD: https://www.atoptool.nl/download/atop-2.3.0.tar.gz
+VERSION: 2.2
+DOWNLOAD: https://www.atoptool.nl/download/atop-2.2-3.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 48e1dbef8c7d826e68829a8d5fc920fc
+MD5SUM: 034dc1544f2ec4e4d2c739d320dc326d
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: atop (advanced interactive monitor)
@@ -66155,10 +66166,10 @@ SHORT DESCRIPTION: ds4drv (Sony DualShock 4 userspace driver)
 NAME: dstat
 LOCATION: ./system/dstat
 FILES: README dstat.SlackBuild dstat.info slack-desc
-VERSION: 0.7.3
-DOWNLOAD: https://github.com/dagwieers/dstat/archive/0.7.3.tar.gz
+VERSION: 0.7.2
+DOWNLOAD: http://dag.wieers.com/home-made/dstat/dstat-0.7.2.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: be27c905e6737993306dbbcee735e8ad
+MD5SUM: bfea4dc8037a0b18fc40a4dfc104dcc8
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: dstat (Versatile resource statistics tool)
@@ -66837,10 +66848,10 @@ SHORT DESCRIPTION: fsarchiver (Filesystem Archiver for Linux)
 NAME: fslint
 LOCATION: ./system/fslint
 FILES: README doinst.sh fslint.SlackBuild fslint.info slack-desc
-VERSION: 2.46
-DOWNLOAD: http://www.pixelbeat.org/fslint/fslint-2.46.tar.xz
+VERSION: 2.44
+DOWNLOAD: http://www.pixelbeat.org/fslint/fslint-2.44.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: ab1eeafaddb14ca09bf8323ecc69c5d3
+MD5SUM: 195d0763038ffbaf268b53b94d80d7e1
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: fslint (find and clean various forms of lint on a filesystem.)
@@ -67288,10 +67299,10 @@ SHORT DESCRIPTION: grub4dos (boot loader)
 NAME: gsmartcontrol
 LOCATION: ./system/gsmartcontrol
 FILES: README doinst.sh gsmartcontrol.SlackBuild gsmartcontrol.info slack-desc
-VERSION: 1.0.1
-DOWNLOAD: https://sourceforge.net/projects/gsmartcontrol/files/1.0.1/gsmartcontrol-1.0.1.tar.bz2
+VERSION: 1.0.0
+DOWNLOAD: https://sourceforge.net/projects/gsmartcontrol/files/1.0.0/gsmartcontrol-1.0.0.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: b19f95e0a598500d53ef03212d769c45
+MD5SUM: 1adec9d4533b8e388f03ab466f296121
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: gsmartcontrol (Hard disk drive health inspection tool)
@@ -67717,10 +67728,10 @@ SHORT DESCRIPTION: innotop (MySQL / InnoDB monitor application)
 NAME: intel-microcode
 LOCATION: ./system/intel-microcode
 FILES: README intel-microcode.SlackBuild intel-microcode.info slack-desc
-VERSION: 20170707
-DOWNLOAD: https://downloadmirror.intel.com/26925/eng/microcode-20170707.tgz
+VERSION: 20170511
+DOWNLOAD: https://downloadmirror.intel.com/26798/eng/microcode-20170511.tgz
 DOWNLOAD_x86_64:
-MD5SUM: fe4bcb12e4600629a81fb65208c34248
+MD5SUM: 167e6e1ff234567291f067f48e11d740
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: intel-microcode (Linux Processor Microcode Data File)
@@ -67783,10 +67794,10 @@ SHORT DESCRIPTION: irqbalance (IRQ balancing daemon)
 NAME: isdct
 LOCATION: ./system/isdct
 FILES: README isdct.SlackBuild isdct.info slack-desc
-VERSION: 3.0.5
-DOWNLOAD: https://downloadmirror.intel.com/26926/eng/Intel_SSD_Data_Center_Tool_3.0.5-Linux.zip
+VERSION: 3.0.4
+DOWNLOAD: https://downloadmirror.intel.com/26749/eng/DataCenterTool_3.0.4_Linux.zip
 DOWNLOAD_x86_64:
-MD5SUM: 9514d105cae90f3ab17de4774452d7f8
+MD5SUM: f1520b1b3e340192e6040601041788a2
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: isdct (Intel SSD Data Center Tool)
@@ -68410,10 +68421,10 @@ SHORT DESCRIPTION: lxterminal (LXDE terminal emulator)
 NAME: lynis
 LOCATION: ./system/lynis
 FILES: README lynis.SlackBuild lynis.info slack-desc
-VERSION: 2.5.2
-DOWNLOAD: https://cisofy.com/files/lynis-2.5.2.tar.gz
+VERSION: 2.5.1
+DOWNLOAD: https://cisofy.com/files/lynis-2.5.1.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 280b3eb40bbdc0432a8013aee77f4b8e
+MD5SUM: 5b9da89c616344bbc73cbc5688a4a0bd
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: lynis (security auditing tool)
@@ -68582,17 +68593,6 @@ MD5SUM: 2fc85340225409fe8d5dfbf90b2a0575
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: man-pages-ru (Russian system documentation)
-
-NAME: mariadb-plugin-saslauthd
-LOCATION: ./system/mariadb-plugin-saslauthd
-FILES: README auth_saslauthd.cnf.new doinst.sh mariadb-plugin-saslauthd.SlackBuild mariadb-plugin-saslauthd.info slack-desc
-VERSION: 1.0
-DOWNLOAD: https://github.com/voegelas/mariadb-plugin-saslauthd/archive/v1.0/mariadb-plugin-saslauthd-1.0.tar.gz
-DOWNLOAD_x86_64:
-MD5SUM: 8e1b5c1a9f5756a6a7af464563994a58
-MD5SUM_x86_64:
-REQUIRES:
-SHORT DESCRIPTION: mariadb-plugin-saslauthd (Authenticate database users with saslauthd)
 
 NAME: mbootpack
 LOCATION: ./system/mbootpack
@@ -69059,10 +69059,10 @@ SHORT DESCRIPTION: nbench (BYTE's Native Mode Benchmarks)
 NAME: ncdu
 LOCATION: ./system/ncdu
 FILES: README ncdu.SlackBuild ncdu.info slack-desc
-VERSION: 1.12
-DOWNLOAD: https://dev.yorhel.nl/download/ncdu-1.12.tar.gz
+VERSION: 1.11
+DOWNLOAD: https://dev.yorhel.nl/download/ncdu-1.11.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 7365ac46c420bc511621216b1747984f
+MD5SUM: 9e44240a5356b029f05f0e70a63c4d12
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: ncdu (NCurses Disk Usage)
@@ -69730,10 +69730,10 @@ SHORT DESCRIPTION: paxctl (PaX control program)
 NAME: pbzip2
 LOCATION: ./system/pbzip2
 FILES: README pbzip2.SlackBuild pbzip2.info slack-desc
-VERSION: 1.1.13
-DOWNLOAD: https://launchpad.net/pbzip2/1.1/1.1.13/+download/pbzip2-1.1.13.tar.gz
+VERSION: 1.1.12
+DOWNLOAD: https://launchpad.net/pbzip2/1.1/1.1.12/+download/pbzip2-1.1.12.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 4cb87da2dba05540afce162f34b3a9a6
+MD5SUM: 91a4911b13305850423840eb0fa6f4f9
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: pbzip2 (Parallel BZIP2)
@@ -69803,17 +69803,6 @@ MD5SUM: 9e2193dbc95148c26423048af5a954c4
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: pdfgrep (Search Text in PDF Files)
-
-NAME: pdksh
-LOCATION: ./system/pdksh
-FILES: Makefile.in.patch README doinst.sh pdksh.SlackBuild pdksh.info slack-desc
-VERSION: 5.2.14
-DOWNLOAD: https://mirrors.slackware.com/slackware/slackware-8.0/contrib/contrib-sources/pdksh-5.2.14/pdksh-5.2.14.tar.gz
-DOWNLOAD_x86_64:
-MD5SUM: 871106b3bd937e1afba9f2ef7c43aef3
-MD5SUM_x86_64:
-REQUIRES:
-SHORT DESCRIPTION: pdksh (the Public Domain Korn Shell)
 
 NAME: pdsh
 LOCATION: ./system/pdsh
@@ -70609,11 +70598,11 @@ SHORT DESCRIPTION: rng-tools (random number generator tools)
 
 NAME: rover
 LOCATION: ./system/rover
-FILES: README rover.SlackBuild rover.info slack-desc
-VERSION: 1.0.0
-DOWNLOAD: https://github.com/lecram/rover/archive/v1.0.0/rover-1.0.0.tar.gz
+FILES: README pathname.diff.gz rover.SlackBuild rover.info slack-desc
+VERSION: 0.4.2
+DOWNLOAD: https://github.com/lecram/rover/archive/v0.4.2/rover-0.4.2.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 6189fa1554bc14928b84a5a36e527178
+MD5SUM: 02b7578e406895771555c912cb584d48
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: rover (simple file browser for the terminal)
@@ -70808,10 +70797,10 @@ SHORT DESCRIPTION: sbotools (ports-like interface to slackbuilds.org)
 NAME: sboui
 LOCATION: ./system/sboui
 FILES: README doinst.sh sboui.SlackBuild sboui.info slack-desc
-VERSION: 0.4.2
-DOWNLOAD: https://github.com/montagdude/sboui/archive/0.4.2/sboui-0.4.2.tar.gz
+VERSION: 0.3.1
+DOWNLOAD: https://github.com/montagdude/sboui/archive/0.3.1/sboui-0.3.1.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: fb2398493d402c7049dc6fe796438770
+MD5SUM: 4293b68cee62f3fda0c0bcf5270efb6a
 MD5SUM_x86_64:
 REQUIRES: libconfig
 SHORT DESCRIPTION: sboui (ncurses-based user interface for SBo package managers)
@@ -71929,11 +71918,11 @@ SHORT DESCRIPTION: ttf-dark-courier (HP font based on courier-new)
 
 NAME: ttf-inconsolata
 LOCATION: ./system/ttf-inconsolata
-FILES: 75-ttf-inconsolata.conf OFL.txt README doinst.sh slack-desc ttf-inconsolata.SlackBuild ttf-inconsolata.info
-VERSION: 20160814
-DOWNLOAD: https://github.com/google/fonts/raw/c6c7e432a29bd7c817feed0963f568a6d710625c/ofl/inconsolata/Inconsolata-Regular.ttf https://github.com/google/fonts/raw/c6c7e432a29bd7c817feed0963f568a6d710625c/ofl/inconsolata/Inconsolata-Bold.ttf
+FILES: 75-ttf-inconsolata.conf README doinst.sh slack-desc ttf-inconsolata.SlackBuild ttf-inconsolata.info
+VERSION: 20150921.480630d
+DOWNLOAD: https://sources.archlinux.org/other/community/ttf-inconsolata/ttf-inconsolata-480630d.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: b0639eb725c0df94f68b779889679457 c6623d74820bb62d25c969a50bafbb46
+MD5SUM: a983fcb47c33ffd9c2c711399cf27c1b
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: ttf-inconsolata (Monospace Font)
@@ -72392,11 +72381,11 @@ SHORT DESCRIPTION: usermin (web-based interface for system administration)
 NAME: vagrant
 LOCATION: ./system/vagrant
 FILES: README slack-desc vagrant.SlackBuild vagrant.info
-VERSION: 1.9.7
-DOWNLOAD: https://releases.hashicorp.com/vagrant/1.9.7/vagrant_1.9.7_i686.rpm
-DOWNLOAD_x86_64: https://releases.hashicorp.com/vagrant/1.9.7/vagrant_1.9.7_x86_64.rpm
-MD5SUM: 20540d723c8d7facd559702647811ddd
-MD5SUM_x86_64: 500ad9ed8a71cc2fad9dcd14fd01144c
+VERSION: 1.9.5
+DOWNLOAD: https://releases.hashicorp.com/vagrant/1.9.5/vagrant_1.9.5_i686.rpm
+DOWNLOAD_x86_64: https://releases.hashicorp.com/vagrant/1.9.5/vagrant_1.9.5_x86_64.rpm
+MD5SUM: 4c2ec18f97a928dd1495582f8bbe9038
+MD5SUM_x86_64: c6e1b3ea90f529a4dc84e7cf00eda6bc
 REQUIRES:
 SHORT DESCRIPTION: vagrant (create and configure virtual development environments)
 
@@ -72689,10 +72678,10 @@ SHORT DESCRIPTION: wine (Wine Is Not an Emulator)
 NAME: wine-staging
 LOCATION: ./system/wine-staging
 FILES: 30-win32-aliases.conf README README.SLACKWARE doinst.sh slack-desc wine-browsedrive.desktop wine-staging.SlackBuild wine-staging.info wine-uninstaller.desktop wine.menu wine.svg winecfg.desktop winecfg.png
-VERSION: 2.12
-DOWNLOAD: https://github.com/wine-compholio/wine-patched/archive/staging-2.12/wine-patched-staging-2.12.tar.gz
+VERSION: 2.11
+DOWNLOAD: https://github.com/wine-compholio/wine-patched/archive/staging-2.11/wine-patched-staging-2.11.tar.gz
 DOWNLOAD_x86_64: UNSUPPORTED
-MD5SUM: 302b43e7969b264ac6198b368171b7b0
+MD5SUM: 101d7109bcee7be03288494f1c808208
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: wine-staging (Wine Staging is the testing area of winehq.org)
@@ -72809,11 +72798,11 @@ SHORT DESCRIPTION: x86_energy_perf_policy (set performance vs energy savings pol
 
 NAME: xarchiver
 LOCATION: ./system/xarchiver
-FILES: README doinst.sh gtk_fix.diff slack-desc xarchiver.SlackBuild xarchiver.info
-VERSION: 0.5.4.11
-DOWNLOAD: https://github.com/ib/xarchiver/archive/0.5.4.11/xarchiver-0.5.4.11.tar.gz
+FILES: README doinst.sh slack-desc xarchiver.SlackBuild xarchiver.info
+VERSION: 0.5.4.8
+DOWNLOAD: https://github.com/ib/xarchiver/archive/0.5.4.8/xarchiver-0.5.4.8.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: ddf269b3426004ef2e511247925b4e46
+MD5SUM: 58bf30410cda017aa32adce4a6dace2a
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: xarchiver (A GTK+2 only Archive Manager)
@@ -72865,10 +72854,10 @@ SHORT DESCRIPTION: xbindkeys (xbindkeys)
 NAME: xboxdrv-linux
 LOCATION: ./system/xboxdrv-linux
 FILES: README slack-desc xboxdrv-linux.SlackBuild xboxdrv-linux.info
-VERSION: 0.8.8
-DOWNLOAD: https://pingus.seul.org/~grumbel/xboxdrv/xboxdrv-linux-0.8.8.tar.bz2
+VERSION: 0.8.5
+DOWNLOAD: https://pingus.seul.org/~grumbel/xboxdrv/xboxdrv-linux-0.8.5.tar.bz2
 DOWNLOAD_x86_64:
-MD5SUM: a62703eda7d59393538b2f22d5b0c791
+MD5SUM: 7f20b12361770bbff9414a7c6d522c25
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: xboxdrv-linux (Userspace Xbox/Xbox360 USB Gamepad Driver for Linux)
@@ -72986,10 +72975,10 @@ SHORT DESCRIPTION: xinput_calibrator (generic touchscreen calibrator for xorg)
 NAME: xjobs
 LOCATION: ./system/xjobs
 FILES: README slack-desc xjobs.SlackBuild xjobs.info
-VERSION: 20170630
-DOWNLOAD: http://www.maier-komor.de/xjobs/xjobs-20170630.tgz
+VERSION: 20140125
+DOWNLOAD: http://www.maier-komor.de/xjobs/xjobs-20140125.tgz
 DOWNLOAD_x86_64:
-MD5SUM: aaca070b3fe965e1fc3a893dd64df73a
+MD5SUM: 05d8ea4d83e7cb3694a43c6bb27e0a56
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: xjobs (execute jobs in parallel)
@@ -73181,6 +73170,17 @@ MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: zerofree (fills free blocks in an ext2/3/4 filesystem with zeroes)
 
+NAME: zeroinstall-injector
+LOCATION: ./system/zeroinstall-injector
+FILES: README doinst.sh slack-desc zeroinstall-injector.SlackBuild zeroinstall-injector.info
+VERSION: 1.8
+DOWNLOAD: http://downloads.sourceforge.net/zero-install/zeroinstall-injector-1.8.tar.bz2
+DOWNLOAD_x86_64:
+MD5SUM: 00b3e8b3cbfbe8ed55f81842a4d2c386
+MD5SUM_x86_64:
+REQUIRES:
+SHORT DESCRIPTION: zeroinstall-injector (The Zero Install Injector)
+
 NAME: zfs-on-linux
 LOCATION: ./system/zfs-on-linux
 FILES: README doinst.sh rc.zfs slack-desc zfs-on-linux.SlackBuild zfs-on-linux.info
@@ -73228,10 +73228,10 @@ SHORT DESCRIPTION: zpaq (journaling, incremental, deduplicating archiver)
 NAME: zstd
 LOCATION: ./system/zstd
 FILES: README slack-desc zstd.SlackBuild zstd.info
-VERSION: 1.3.0
-DOWNLOAD: https://github.com/facebook/zstd/archive/v1.3.0/zstd-1.3.0.tar.gz
+VERSION: 1.2.0
+DOWNLOAD: https://github.com/facebook/zstd/archive/v1.2.0/zstd-1.2.0.tar.gz
 DOWNLOAD_x86_64:
-MD5SUM: 888660a850e33c2dcc7c4f9d0b04d347
+MD5SUM: d7777b0aafa7002a4dee1e2db42afe30
 MD5SUM_x86_64:
 REQUIRES:
 SHORT DESCRIPTION: zstd (fast lossless compression)

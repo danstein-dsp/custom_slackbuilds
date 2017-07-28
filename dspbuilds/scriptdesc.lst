@@ -1,0 +1,20 @@
+# buildit.sh        Download and Build a DSP Package uses dspbuilds.lst
+# buildlst.sh       Makes a list of packages needed to build a package uses dspbuilds.lst (redundent running script)
+# chksbc.sh         Checks for changes in SBO that effect DSPBuilds outputs updatedsb.txt
+# convsd.sh         Old convert script (?????? not working)
+# deplst.sh         finds builds that depends in IN file  uses dspbuilds.lst
+# dspbuildlist.sh   used to generate dspbuilds.lst
+# dspinstall.sh     build and install dsp packages uses buildlst.sh makeordr.sh rmvdup.sh dspbuilds.lst
+# dsplist.sh        Generates a List of dsp Files
+# dspmenu.sh        Menu to run dspscritps and automate processed
+# get-jdk.sh        Downloads JDK packages from website and accepts license
+# jdk-get.sh        Downloads JDK but only for linux-x64
+# makeodr.sh        Reverse a list in TXT file
+# movelos.sh        moves a list of slackbuilds (crude move) destroys .Slackbuild after move not sfae
+# mvslb.sh          Moves Slackbuild to DSPBUILD and Converts to DSPbuild
+# newdep.sh         what needs to be rebuilt if pkg updated
+# rmvdup.sh         Removes Dup Lines from text file
+# sblist.sh         mskas slackbuilds.lst (chekc to see if works)
+# work.sh           moves a slack build over to dsp (messy dont use)
+# worklist.sh       like movelos.sh messy dont use
+
